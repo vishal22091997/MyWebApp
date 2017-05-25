@@ -1,0 +1,25 @@
+package sethi.vishal.classes;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.entity.Books;
+
+public class GetABook {
+	private Books book;
+	
+	public Books giveBook(int id){
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Books.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		book = session.get(Books.class, id);
+		session.getTransaction().commit();
+		session.close();
+		
+		return book;
+		
+	}
+	
+
+}

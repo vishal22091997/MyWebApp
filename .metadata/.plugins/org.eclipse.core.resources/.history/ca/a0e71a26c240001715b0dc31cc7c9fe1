@@ -1,0 +1,51 @@
+package sethi.vishal.classes;
+
+import java.io.Serializable;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.entity.UsersData;
+
+public class CheckUserWithPassword {
+	
+	private String email;
+	private String password;
+	List<UsersData> theList;
+	public CheckUserWithPassword(String email, String password) {
+		super();
+		this.email = email;
+		this.password = password;
+		
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(UsersData.class).buildSessionFactory();
+		
+		try{
+			Session session = factory.getCurrentSession();
+			session.beginTransaction();
+			
+			theList = session.createQuery("FROM UsersData WHERE email='"+email+"' AND password='"+password+"'").list();
+			session.getTransaction().commit();
+		}
+		finally{
+			factory.close();
+		}
+	}
+	public boolean checkUser(){
+		
+		if(theList.size()>0&&theList!=null){
+			return true;
+		}
+		return false;
+	}
+	
+	public UsersData getUser(){
+		
+		UsersData user = theList.get(0);
+		return user;
+	}
+	
+	
+
+}

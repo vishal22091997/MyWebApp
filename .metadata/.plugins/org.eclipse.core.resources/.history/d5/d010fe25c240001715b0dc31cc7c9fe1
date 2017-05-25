@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color:rgb(211,222,222);
+}
+.area{
+	margin-top:100px;
+}
+.main_area{
+	background-color: white;
+	border-radius:10px;
+	width:70%;
+	margin:15px auto;
+}
+.left_area{
+	float:left;	
+	
+		
+}
+.table{
+	padding:20px 5%;
+}
+.right_area{
+	margin-left:40%;
+}
+.table_header{
+	color:orange;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.data{
+	font-family: cursive;
+	margin-left:10%;
+}
+.image{
+	margin:auto 5% ;
+	height:160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

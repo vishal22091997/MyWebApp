@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Old Book Store</title>
+<link rel="StyleSheet" href="css/Home.css">
+</head>
+<body class="body">
+<%@include file="NavigationBar.jsp" %>>
+	<div class="search_area">
+		<span class="span">Instant Search ! ! !</span><br><br>
+		<form action="instantsearch.do" method="get">
+		<input type="text" name="search_text" class="input" placeholder="Enter your Search Here">
+		<select class="select" name="select">
+			<option class="option" value="title">Title</option>
+			<option class="option" value="author">Author</option>
+			<option class="option" value="publisher">Publisher</option>
+		</select> <br><br>
+		<input type = "submit" class="submit" value ="Submit">
+		</form>
+	</div>
+	<div>
+	
+	
+	</div>	
+
+
+</body>
+</html>

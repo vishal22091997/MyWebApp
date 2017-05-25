@@ -1,0 +1,136 @@
+<%@page import="java.util.Iterator"%>
+<%@page import="sethi.vishal.classes.GiveEmails"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<%@include file ="NavigationBar.jsp" %>
+<link rel="StyleSheet" href="css/SignUpPage.css">
+<%
+	List<String> emails = GiveEmails.giveEmails();
+	Iterator<String> itr = emails.iterator();
+%>
+
+<script type="text/javascript">
+	function checkEmail(email,span){
+		var show = false;
+		<%
+			
+			while(itr.hasNext()){
+				
+		%>
+		if((email.value).localeCompare("<%=itr.next()%>")==0){
+			show = true;
+		}
+		<%
+			}
+		%>
+		if(show){
+			while(span.firstChild){
+				span.removeChild(span.firstChild);
+			}
+			span.appendChild(document.createTextNode("Email Already exists"));
+			return false;
+				
+			}
+		else{
+			while(span.firstChild){
+				span.removeChild(span.firstChild);
+			}
+			return true;
+		}
+	}
+	
+	function checkPass(pass,span){
+    	
+   		if(pass.value.length<8&&pass.value.length>0){
+    		while(span.firstChild){
+    			span.removeChild(span.firstChild);
+    		}
+    		span.appendChild(document.createTextNode("password should be of atleast 8 characters"));
+    		return false;
+    	}
+    	else{
+    		while(span.firstChild){
+    			span.removeChild(span.firstChild);
+    		}		
+    		return true;
+    	}
+    	
+    }
+	
+	function checkRepass(repass,span,pass){
+			if(repass.value!=null&&pass.value!=null&&repass.value!=""&&pass.value!=""&&pass.value.length>8 ){
+				if(repass.value==pass.value){
+					while(span.firstChild){
+						span.removeChild(span.firstChild);
+					}
+					span.appendChild(document.createTextNode("password matched"));
+					return true;
+				}
+				else{
+					while(span.firstChild){
+						span.removeChild(span.fistChild);
+					}
+					span.appendChild(document.createTextNode("password doesn't matched"));
+					return false;
+				}
+			}
+			else if(pass.value>8){
+				while(span.firstChild){
+					span.removeChild(span.firstChild);
+				}
+				span.appendChild(document.createTextNode("Enter password first"));
+				return false;
+			}
+			
+			return false;
+			
+		}   
+	
+	function clicked(form){
+			if(checkEmail(form.email,document.getElementById('help_email'))&&
+					checkPass(form.pass,document.getElementById('help_pass'))&&
+					checkRepass(form.repass,document.getElementById('help_repass'),form.pass)){
+				form.submit;
+			}
+				
+			
+			
+		}
+    
+	
+</script>
+
+<title>Sign Up</title>
+</head>
+<body>
+	<div class="photos">
+	</div>
+	<div class ="main_area">
+	   <div class="login_text">
+	   <h3>Register Now ! ! !</h3></div>
+	   <form action="SignUp.do" method="post" class="login_form" enctype="multipart/form-data">
+	  		<input type ="email" placeholder="Enter Email" class="input" name="email" required onblur="checkEmail(this,document.getElementById('help_email'))"/><span class="orange" id="help_email"></span>
+	  		<input type="password" placeholder="Enter Password" class="input" name="pass" required onblur="checkPass(this,document.getElementById('help_pass'))"/><span class="orange" id="help_pass"></span>
+	  		<input type ="password" placeholder="Confirm Password"  class="input" required onblur="checkRepass(this,document.getElementById('help_repass'),this.form.pass)" /><span class="orange" id="help_repass" ></span>
+	  		 <h3 class="header_three">Profile Details...</h3>
+	  		 <hr>
+	  		 Your Profile Photo<input type = "file" placeholder="Enter your photo" class="input" name="image" required>
+	  		
+	  		<input type="name" placeholder="First Name" name="first_name" class="input_small" required onblur=""><span class="orange" id="help_first"></span>
+	  		<input type ="name" placeholder="Last Name" name= "last_name" class="input_small" required onblur=""/><span class="orange" id="help_last"></span>
+			<input type ="date" name="dob" class="input" placeholder ="Date Of Birth" required onblur=""/><span class="orange" id="help_dob"></span>
+			<input type ="text" name ="place" class="input" placeholder="Nearby - Address " required>
+			<input type = "text" class="input" value="+91" style="width:10%" disabled/>
+			<input type ="number" name="phone" class="input" style ="width:55%"   placeholder="PhoneNumber"> 
+			<input type =submit value ="Register !!!" class="input" onclick="clicked(this.form)"/>
+			
+		 
+	   </form>
+	</div>
+</body>
+</html>

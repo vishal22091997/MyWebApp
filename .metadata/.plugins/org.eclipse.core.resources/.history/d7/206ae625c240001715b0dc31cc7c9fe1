@@ -1,0 +1,53 @@
+<%@page import="sethi.vishal.entity.UsersData"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<link rel="StyleSheet" href="css/NavigationBar.css">
+</head>
+<body class = body>
+	<div class="nav">
+		<ul class="ul_list">
+		<%
+	
+		String text=null; 	
+		String href =null ;
+		if((Boolean)session.getAttribute("isNew")){
+			text ="Login" ;
+			href = "LoginPage.jsp";
+			}else {
+				UsersData user =  (UsersData)session.getAttribute("userDetails");
+				text = user.getFirstName();
+				href = "Profile";
+			}
+			
+		 %>
+		
+		
+			<li class="li_listing"><a class="links" href ="Home.aspx" >Home</a></li>
+			<li class="li_listing"><a class="links" href ="SellBooks.do" >Sell Books</a></li>
+			<li class="li_listing"><a class="links" href ="BuyBooks.do" >Buy Books</a></li>
+			<li class="li_listing"><a class="links" href ="DonateBooks.do" >Donate Books</a></li>
+			<li id="photo" ><a  class="login" href ="<%=href %>" ><%=text %></a></li>
+			<li><a class="login" href=""><img class="image_icon" alt="Icon" src="AddPhoto"></a></li>
+		
+		</ul>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+
+
+
+
+</body>
+</html>

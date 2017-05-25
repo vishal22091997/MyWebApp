@@ -1,0 +1,51 @@
+package sethi.vishal.servlets;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import javax.servlet.http.Part;
+
+import org.apache.tomcat.util.http.fileupload.RequestContext;
+
+import sethi.vishal.classes.AddUserDetails;
+import sethi.vishal.entity.UsersData;
+
+@MultipartConfig(maxFileSize=16000000)
+public class ControlSignUp extends HttpServlet {
+	
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String email = request.getParameter("email");
+		String password = request.getParameter("pass");
+		String firstName = request.getParameter("first_name");
+		String lastName = request.getParameter("last_name");
+		String dob = request.getParameter("dob");
+		Part part = request.getPart("image");
+		String imageName = part.getName();
+		String contentType = part.getContentType();
+		InputStream input = part.getInputStream();
+		byte data[] = new byte[(int)part.getSize()];
+		input.read(data);
+		String place = request.getParameter("place");
+		String phone = (request.getParameter("phone"));
+		AddUserDetails addUser = new AddUserDetails(email, password, firstName, lastName, dob, data,place,phone);
+		addUser.addUser();
+		
+		HttpSession session = request.getSession();
+		session.setAttribute("userDetails", new UsersData(email, password, firstName, lastName, dob,data,place,phone));
+		
+		RequestDispatcher dispatch = request.getRequestDispatcher("/Home.aspx");
+		dispatch.forward(request, response);
+		
+	}
+
+}

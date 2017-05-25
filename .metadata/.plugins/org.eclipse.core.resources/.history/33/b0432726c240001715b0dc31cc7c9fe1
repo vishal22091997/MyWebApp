@@ -1,0 +1,30 @@
+package sethi.vishal.servlets;
+import sethi.vishal.classes.ListOfBooks;
+import sethi.vishal.entity.*;
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class ControlInstantSearch extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+   
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String search = request.getParameter("search_text");
+		String select = request.getParameter("select");
+		List<Books> listOfBooks = new ListOfBooks(search,select).giveList();
+		request.setAttribute("listOfBooks", listOfBooks);
+		RequestDispatcher dispatch = request.getRequestDispatcher("ShowList.jsp");
+		dispatch.forward(request, response);
+	}
+
+	
+
+}

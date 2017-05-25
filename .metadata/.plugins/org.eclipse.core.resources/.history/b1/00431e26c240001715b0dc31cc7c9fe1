@@ -1,0 +1,31 @@
+package sethi.vishal.classes;
+import sethi.vishal.entity.*;
+
+import java.awt.print.Book;
+import java.util.*;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+public class ListOfBooks {
+	private List<Books> theList;
+	private String search;
+	private String select;
+	
+	public ListOfBooks(String search,String select){
+		this.search = search;
+		this.select = select;
+	}
+	
+	public List<Books> giveList(){
+		theList = new ArrayList<Books>();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Books.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		theList = session.createQuery("from Books where "+select+" LIKE '%"+search+"%'").list();
+	
+		
+		return theList;
+	}
+
+}

@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+.body{
+	height: 50px;
+}
+.nav{
+	height: 60px;
+	width:100%;
+	background-color:rgb(71,181,255);
+	position:fixed;
+	top:0px;
+	left:0px;	
+}
+.ul_list{
+	display:inline;
+	list-style: none;
+}
+.li_listing{
+	float:left;
+	margin-left:3%;
+	margin-top:20px;
+	color:white;
+}
+.links{
+	text-decoration:none;
+	color:white;
+	padding:20px 10px;
+	border-radius:10px;	
+	
+}
+.links:hover{
+	background-color: yellow;
+	color:black;
+	transition-duration:0.6s;
+}
+.login{
+	float:right;
+	margin-right:8%;
+	text-decoration:none;
+	color:white;	
+}
+.span_login{
+	margin-top:20px;
+}
+#photo{
+	magin-top:5px;
+}
+.image_icon{
+	position:fixed;
+	top:0px;
+	margin-top:0px;
+	height: 60px;
+	width:60px;
+	margin-right:7%;
+}

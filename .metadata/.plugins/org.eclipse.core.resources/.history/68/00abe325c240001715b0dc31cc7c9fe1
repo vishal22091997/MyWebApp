@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Log In </title>
+<link rel="StyleSheet" href ="css/LoginPage.css">
+</head>
+<body class = "body">
+<%@include file ="NavigationBar.jsp" %>
+	
+
+	<div class ="main_area">
+	   <div class="login_text">
+	   <h3>Login</h3></div>
+	   <form action="LogIn.do" class="login_form" method="post">
+	  		<input type ="email" placeholder="Email" class="email_input" name="email_entered">
+	  		<input type="password" placeholder="Password" class="password_input" name="password_entered" />
+			<input type = "submit" value ="Log Me In " class="login_button">	 
+		 	<div style= "margin-left:1%;
+		 	margin-top:10px;"><a class="link_register" href ="SignUpPage.jsp" >Register </a> here</div>
+	   </form>
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	</div>
+
+</body>
+</html>
