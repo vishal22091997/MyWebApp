@@ -1,6 +1,8 @@
 package sethi.vishal.MyWebApp.servlets;
 
 import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -50,10 +52,10 @@ public class ConnectionToDB extends HttpServlet {
 		System.out.println("Session Made");
 		session.beginTransaction();
 		System.out.println("transaction Made");
-		Student student = new Student(name, email);
-		session.save(student);
+		List<Student> list = session.createQuery("from Student").list();
 		System.out.println("Studetntade");
 		session.getTransaction().commit();
+		System.out.println(list.get(0).toString());
 		System.out.println("Commited");
 		factory.close();
 	}
