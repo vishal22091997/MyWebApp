@@ -626,3 +626,6 @@
 0:0:0:0:0:0:0:1 - - [25/May/2017:17:42:25 +0530] "GET /MyWebApp/assets/images/favicons/favicon-96x96.png HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [25/May/2017:17:42:33 +0530] "GET /MyWebApp/Login.jsp HTTP/1.1" 200 3304
 0:0:0:0:0:0:0:1 - - [25/May/2017:17:42:33 +0530] "GET /MyWebApp/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/May/2017:22:07:13 +0530] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [25/May/2017:22:07:14 +0530] "GET /MyWebApp/form.jsp HTTP/1.1" 200 458
+0:0:0:0:0:0:0:1 - - [25/May/2017:22:07:37 +0530] "POST /MyWebApp/data.get HTTP/1.1" 200 -

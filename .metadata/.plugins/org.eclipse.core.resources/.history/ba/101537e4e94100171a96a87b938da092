@@ -1,0 +1,159 @@
+package sethi.vishal.MyWebApp.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "product")
+public class Product {
+	@Id
+	@Column(name = "id")
+	private int id;
+	
+	@Column(name = "no")
+	private int no;
+	
+	@Column(name = "brand")
+	private int brand;
+	
+	@Column(name = "name")
+	private String name;
+	
+	@Column(name = "type")
+	private int type;
+	
+	@Column(name = "seller")
+	private int seller;
+	
+	@Column(name = "price")
+	private int price;
+	
+	@Column(name = "discount")
+	private float discount;
+
+	@Column(name = "description")
+	private String discription;
+	
+
+	@Column(name = "remarks")
+	private String remarks;
+
+	@Column(name = "ratings")
+	private int ratings;
+
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", no=" + no + ", brand=" + brand + ", name=" + name + ", type=" + type
+				+ ", seller=" + seller + ", price=" + price + ", discount=" + discount + ", discription=" + discription
+				+ ", remarks=" + remarks + ", ratings=" + ratings + "]";
+	}
+
+	public Product(int id, int no, int brand, String name, int type, int seller, int price, float discount,
+			String discription, String remarks, int ratings) {
+		super();
+		this.id = id;
+		this.no = no;
+		this.brand = brand;
+		this.name = name;
+		this.type = type;
+		this.seller = seller;
+		this.price = price;
+		this.discount = discount;
+		this.discription = discription;
+		this.remarks = remarks;
+		this.ratings = ratings;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getNo() {
+		return no;
+	}
+
+	public void setNo(int no) {
+		this.no = no;
+	}
+
+	public int getBrand() {
+		return brand;
+	}
+
+	public void setBrand(int brand) {
+		this.brand = brand;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
+	}
+
+	public int getSeller() {
+		return seller;
+	}
+
+	public void setSeller(int seller) {
+		this.seller = seller;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public float getDiscount() {
+		return discount;
+	}
+
+	public void setDiscount(float discount) {
+		this.discount = discount;
+	}
+
+	public String getDiscription() {
+		return discription;
+	}
+
+	public void setDiscription(String discription) {
+		this.discription = discription;
+	}
+
+	public String getRemarks() {
+		return remarks;
+	}
+
+	public void setRemarks(String remarks) {
+		this.remarks = remarks;
+	}
+
+	public int getRatings() {
+		return ratings;
+	}
+
+	public void setRatings(int ratings) {
+		this.ratings = ratings;
+	}
+	
+
+
+}

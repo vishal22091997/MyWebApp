@@ -1,0 +1,10 @@
+#Thu May 25 21:00:35 IST 2017
+l=host type\: redhat/other
+ct=openshift
+d=1495726235968
+c=2
+cmp=openshift
+a=new_connection_v3
+cl=https\://console.starter-us-west-2.openshift.com
+v=3.3.3
+s=0

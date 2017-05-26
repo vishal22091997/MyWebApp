@@ -1,0 +1,34 @@
+package sethi.vishal.MyWebApp.classes;
+
+ 
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+ 
+import sethi.vishal.MyWebApp.entity.Product;
+
+public class GetGreaterThan3Ratings {
+	List<Product> list = new ArrayList<Product>();
+	public List<Product> giveList( int ratings){
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		System.out.println("Transactionn begin");
+		String query = "from Product where ratings>3 and avail = 1";
+		
+		List<Product> list2 = session.createQuery(query).list();
+		list =  list2;
+		System.out.println("Got the list");
+		session.getTransaction().commit();
+		session.close();
+		System.out.println(list);
+		return list;
+		
+	}
+
+}

@@ -1,2 +1,4 @@
+//org.jboss.tools.openshift.core.connection.auth.https\://vishalsethi60%40gmail.com@console.starter-us-west-2.openshift.com=Basic
+//org.jboss.tools.openshift.core.connection.extproperties.https\://vishalsethi60%40gmail.com@console.starter-us-west-2.openshift.com={"org.jbosstools.openshift.core.connection.ext.registry.url"\:"","org.jbosstools.openshift.core.connection.ext.cluster.namespace"\:"openshift"}
 eclipse.preferences.version=1
-org.jboss.tools.openshift.core.connection.CONNECTION_NAMES=
+org.jboss.tools.openshift.core.connection.CONNECTION_NAMES=https\://vishalsethi60%40gmail.com@console.starter-us-west-2.openshift.com
