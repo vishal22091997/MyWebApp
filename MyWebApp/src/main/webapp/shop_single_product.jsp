@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<%@page import="sethi.vishal.MyWebApp.entity.Image"%>
+<%@page import="java.util.List"%>
+<%@page import="sethi.vishal.MyWebApp.entity.Product"%>
 <html lang="en-US" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,7 +11,7 @@
     Document Title
     =============================================
     -->
-    <title>Titan | Multipurpose HTML5 Template</title>
+    <title>MobiWorld</title>
     <!--  
     Favicons
     =============================================
@@ -355,21 +358,31 @@
           </div>
         </div>
       </nav>
+      <%
+      	Product product = (Product)session.getAttribute("product");
+      	List<Image> images = (List<Image>)session.getAttribute("image_list");
+      	System.out.println(images.size());
+      	String first = (images.size()==0)?"":images.get(0).getImage();
+      %>
+      
+      
+      
+      
       <div class="main">
         <section class="module">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 mb-sm-40"><a class="gallery" href="assets/images/shop/product-7.jpg"><img src="assets/images/shop/product-7.jpg" alt="Single Product Image"/></a>
+              <div class="col-sm-6 mb-sm-40"><a class="gallery" href="assets/images/shop/<%= first%>"><img src="assets/images/shop/<%=first %>" alt="Single Product Image"/></a>
                 <ul class="product-gallery">
-                  <li><a class="gallery" href="assets/images/shop/product-8.jpg"></a><img src="assets/images/shop/product-8.jpg" alt="Single Product"/></li>
-                  <li><a class="gallery" href="assets/images/shop/product-9.jpg"></a><img src="assets/images/shop/product-9.jpg" alt="Single Product"/></li>
-                  <li><a class="gallery" href="assets/images/shop/product-10.jpg"></a><img src="assets/images/shop/product-10.jpg" alt="Single Product"/></li>
+                  <% for(int i=1, j=images.size();i<j;i++){ %>
+                  <li><a class="gallery" href="assets/images/shop/<%= images.get(i).getImage()%>"></a><img src="assets/images/shop/<%=images.get(i).getImage() %>" alt="Single Product"/></li>
+                   <%} %>
                 </ul>
               </div>
               <div class="col-sm-6">
                 <div class="row">
                   <div class="col-sm-12">
-                    <h1 class="product-title font-alt">Accessories Pack</h1>
+                    <h1 class="product-title font-alt"><%=product.getName() %></h1>
                   </div>
                 </div>
                 <div class="row mb-20">
@@ -378,13 +391,13 @@
                 </div>
                 <div class="row mb-20">
                   <div class="col-sm-12">
-                    <div class="price font-alt"><span class="amount">£20.00</span></div>
+                    <div class="price font-alt"><span class="amount">Rs.<%=product.getPrice() %></span></div>
                   </div>
                 </div>
                 <div class="row mb-20">
                   <div class="col-sm-12">
                     <div class="description">
-                      <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                      <p><%=product.getDiscription() %></p>
                     </div>
                   </div>
                 </div>
@@ -396,7 +409,7 @@
                 </div>
                 <div class="row mb-20">
                   <div class="col-sm-12">
-                    <div class="product_meta">Categories:<a href="#"> Man, </a><a href="#">Clothing, </a><a href="#">T-shirts</a>
+                    <div class="product_meta">Categories:<a href="#"><%=product.getType() %></a>
                     </div>
                   </div>
                 </div>
@@ -411,23 +424,23 @@
                 </ul>
                 <div class="tab-content">
                   <div class="tab-pane active" id="description">
-                    <p>Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
-                    <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                    <p><%=product.getDiscription() %></p>
+                     
                   </div>
                   <div class="tab-pane" id="data-sheet">
                     <table class="table table-striped ds-table table-responsive">
                       <tbody>
                         <tr>
                           <th>Title</th>
-                          <th>Info</th>
+                          <th><%=product.getName() %></th>
                         </tr>
                         <tr>
-                          <td>Compositions</td>
-                          <td>Jeans</td>
+                          <td>Type</td>
+                          <td><%=product.getType() %></td>
                         </tr>
                         <tr>
-                          <td>Size</td>
-                          <td>44, 46, 48</td>
+                          <td>Price</td>
+                          <td><%=product.getPrice() %></td>
                         </tr>
                         <tr>
                           <td>Color</td>
@@ -435,7 +448,7 @@
                         </tr>
                         <tr>
                           <td>Brand</td>
-                          <td>Somebrand</td>
+                          <td><%=product.getBrand() %></td>
                         </tr>
                       </tbody>
                     </table>

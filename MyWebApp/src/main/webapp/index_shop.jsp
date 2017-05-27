@@ -403,6 +403,7 @@
               	while(itr.hasNext())
               	{  
               		Product product = itr.next();
+              		String href = "showSingle?id="+product.getId();
               	%>
               
               <!-- Start of Product listing on the first Page-->
@@ -412,7 +413,7 @@
                   <div class="shop-item-image"><img src="assets/images/shop/product-<%=product.getNo() %>.jpg" alt="Accessories Pack"/>
                     <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
                   </div>
-                  <h4 class="shop-item-title font-alt"><a href="#"><%=product.getName() %></a></h4>Rs.<%=product.getPrice()%>
+                  <h4 class="shop-item-title font-alt"><a href="<%= href%>"><%=product.getName() %></a></h4>Rs.<%=product.getPrice()%>
                 </div>
              
               </div>
@@ -447,11 +448,11 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt mb-0">Be inspired. Get ahead of trends.</h2>
+                <h2 class="module-title font-alt mb-0">Be Inspired. Get Ahead Of Trends </h2>
               </div>
             </div>
           </div>
-          <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=EMy5krGcoOU', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+          <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=sbios0u2Px8', containment:'.module-video', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
         </section>
         <section class="module">
           <div class="container">

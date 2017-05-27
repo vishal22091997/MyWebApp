@@ -23,6 +23,31 @@
     	<servlet-name>Index</servlet-name>
     	<url-pattern>/Index</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SingleProduct</servlet-name>
+    	<url-pattern>/SingleProduct</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    	<servlet-name>showSinglePage</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SingleProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>showSinglePage</servlet-name>
+    	<url-pattern>/showSingle</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SingleProduct</display-name>
+    	<servlet-name>SingleProduct</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SingleProduct</servlet-class>
+    </servlet>
+    
+    
+    
+    
     <session-config>
         <session-timeout>
             30
