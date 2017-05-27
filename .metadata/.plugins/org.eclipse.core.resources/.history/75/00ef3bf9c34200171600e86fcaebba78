@@ -1,0 +1,8 @@
+package sethi.vishal.MyWebApp.classes;
+
+public class GetProductWithId {
+	public Product getProduct(String id){
+		
+	}
+
+}
