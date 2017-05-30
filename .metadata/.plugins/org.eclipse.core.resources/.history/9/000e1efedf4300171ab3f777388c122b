@@ -1,0 +1,20 @@
+package sethi.vishal.testing;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.Brand;
+import sethi.vishal.MyWebApp.entity.Colors;
+import sethi.vishal.MyWebApp.entity.Type;
+
+public class testHibernateQuery {
+	public static void main(String hd[]){
+		Session session = new Configuration().configure().addAnnotatedClass(Type.class).buildSessionFactory().getCurrentSession();
+		session.beginTransaction();
+		List<Type> list = session.createQuery("from Type where id = 1").list();
+		System.out.println(list.toString());
+	}
+
+}

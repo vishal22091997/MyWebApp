@@ -1,0 +1,27 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.util.List;
+
+import sethi.vishal.MyWebApp.entity.Product;
+import sethi.vishal.MyWebApp.entity.Review;
+
+public class MakeProductDisplay {
+	 
+
+	public ProductDisplay makeProduct(String id) {
+		ProductDisplay finalPro = new ProductDisplay();
+		GetProductWithId get = new GetProductWithId();
+		Product product = get.getProduct(id);
+		int no = product.getNo();
+		List<String> images = get.getImageNames(no);
+		List<String> colors = get.availColors(no);
+		String brand = get.brandName(product.getBrand());
+		List<Review> reviews = get.giveProductReview(no);
+		
+		
+		
+		
+		return finalPro;
+	}
+
+}

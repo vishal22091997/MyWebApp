@@ -400,6 +400,7 @@
             <div class="row multi-columns-row">
               <% List<Product> list = (List<Product>)request.getAttribute("MainList"); 
               	Iterator<Product> itr = list.iterator();
+              	
               	while(itr.hasNext())
               	{  
               		Product product = itr.next();

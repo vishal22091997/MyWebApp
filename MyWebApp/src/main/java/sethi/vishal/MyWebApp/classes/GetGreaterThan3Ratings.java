@@ -22,12 +22,13 @@ public class GetGreaterThan3Ratings {
 		 
 		
 		 
-		List<Product> list2 = session.createQuery("from Product").list();
+		List<Product> list2 = session.createQuery("from Product where avail = 1 and ratings > 3").list();
 		System.out.println("Got the list");
 		session.getTransaction().commit();
 		factory.close();
 		System.out.println(list2);;
 		System.out.println(list2.size());
+		session.close();
 		return list2;
 		
 	}

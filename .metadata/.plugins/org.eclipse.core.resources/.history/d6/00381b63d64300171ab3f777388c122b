@@ -1,0 +1,18 @@
+package sethi.vishal.MyWebApp.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "BRAND")
+public class Brand {
+	@Id
+	@Column(name = "NO")
+	private int no;
+	
+	@Column(name = "name")
+	private String name;
+
+}

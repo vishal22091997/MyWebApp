@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+<%@page import="sethi.vishal.MyWebApp.classes.RelatedProduct"%>
 <%@page import="sethi.vishal.MyWebApp.entity.Image"%>
 <%@page import="java.util.List"%>
+<%@page import="sethi.vishal.MyWebApp.classes.ProductDisplay"%>
+<%@page import="sethi.vishal.MyWebApp.entity.Review"%>
 <%@page import="sethi.vishal.MyWebApp.entity.Product"%>
 <html lang="en-US" dir="ltr">
   <head>
@@ -359,10 +362,24 @@
         </div>
       </nav>
       <%
-      	Product product = (Product)session.getAttribute("product");
-      	List<Image> images = (List<Image>)session.getAttribute("image_list");
+      	ProductDisplay product = (ProductDisplay)session.getAttribute("product");
+      	List<String> images = product.getImages();
       	System.out.println(images.size());
-      	String first = (images.size()==0)?"":images.get(0).getImage();
+      	String first = (images.size()==0)?"":images.get(0) ;
+      	List<Review> reviews = product.getReviews();
+      	int avg = 0;
+      	
+      	if(reviews.size()>0){
+      		for(Review review: reviews){
+          		avg+=review.getRating();
+          	}
+      		avg = avg/reviews.size();
+      	}
+      	
+      	
+      	
+      	
+      	
       %>
       
       
@@ -375,7 +392,7 @@
               <div class="col-sm-6 mb-sm-40"><a class="gallery" href="assets/images/shop/<%= first%>"><img src="assets/images/shop/<%=first %>" alt="Single Product Image"/></a>
                 <ul class="product-gallery">
                   <% for(int i=1, j=images.size();i<j;i++){ %>
-                  <li><a class="gallery" href="assets/images/shop/<%= images.get(i).getImage()%>"></a><img src="assets/images/shop/<%=images.get(i).getImage() %>" alt="Single Product"/></li>
+                  <li><a class="gallery" href="assets/images/shop/<%= images.get(i)%>"></a><img src="assets/images/shop/<%=images.get(i)  %>" alt="Single Product"/></li>
                    <%} %>
                 </ul>
               </div>
@@ -386,18 +403,19 @@
                   </div>
                 </div>
                 <div class="row mb-20">
-                  <div class="col-sm-12"><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star-off"></i></span><a class="open-tab section-scroll" href="#reviews">-2customer reviews</a>
+                  <div class="col-sm-12"><%for(int i=1;i<=avg;i++) { %> <span><i class="fa fa-star star"></i></span> <% } %>    <% for(int i=avg;i<5;i++){ %>   <span><i class="fa fa-star star-off"></i></span> <%} %><a class="open-tab section-scroll" href="#reviews">-<%= reviews.size() %>customer reviews</a>
                   </div>
                 </div>
                 <div class="row mb-20">
                   <div class="col-sm-12">
-                    <div class="price font-alt"><span class="amount">Rs.<%=product.getPrice() %></span></div>
+                  <% String price = (product.getAvail()==1)?"Rs."+product.getPrice()+"":"Out Of Stock"; %>
+                    <div class="price font-alt"><span class="amount"><%=price %></span></div>
                   </div>
                 </div>
                 <div class="row mb-20">
                   <div class="col-sm-12">
                     <div class="description">
-                      <p><%=product.getDiscription() %></p>
+                      <p><%=product.getDescription() %></p>
                     </div>
                   </div>
                 </div>
@@ -420,11 +438,11 @@
                 <ul class="nav nav-tabs font-alt" role="tablist">
                   <li class="active"><a href="#description" data-toggle="tab"><span class="icon-tools-2"></span>Description</a></li>
                   <li><a href="#data-sheet" data-toggle="tab"><span class="icon-tools-2"></span>Data sheet</a></li>
-                  <li><a href="#reviews" data-toggle="tab"><span class="icon-tools-2"></span>Reviews (2)</a></li>
+                  <li><a href="#reviews" data-toggle="tab"><span class="icon-tools-2"></span>Reviews (<%=reviews.size() %>)</a></li>
                 </ul>
                 <div class="tab-content">
                   <div class="tab-pane active" id="description">
-                    <p><%=product.getDiscription() %></p>
+                    <p><%=product.getDescription() %></p>
                      
                   </div>
                   <div class="tab-pane" id="data-sheet">
@@ -443,8 +461,9 @@
                           <td><%=product.getPrice() %></td>
                         </tr>
                         <tr>
-                          <td>Color</td>
-                          <td>Black</td>
+                        	<%  %>
+                          <td>Available Colors</td>
+                          <td><%=product.getColors().toString() %></td>
                         </tr>
                         <tr>
                           <td>Brand</td>
@@ -455,49 +474,50 @@
                   </div>
                   <div class="tab-pane" id="reviews">
                     <div class="comments reviews">
+                    
+                    
+                    <%for(Review review: reviews){ %>
+                    
                       <div class="comment clearfix">
                         <div class="comment-avatar"><img src="" alt="avatar"/></div>
                         <div class="comment-content clearfix">
-                          <div class="comment-author font-alt"><a href="#">John Doe</a></div>
+                          <div class="comment-author font-alt"><a href="#"><%=review.getName() %></a></div>
                           <div class="comment-body">
-                            <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
+                            <p><%=review.getReview() %></p>
                           </div>
-                          <div class="comment-meta font-alt">Today, 14:55 -<span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star-off"></i></span>
+                          <div class="comment-meta font-alt"><%=review.getDate() %>-<%for(int i=1;i<=review.getRating();i++) { %> <span><i class="fa fa-star star"></i></span> <% } %>    <% for(int i=review.getRating();i<5;i++){ %>   <span><i class="fa fa-star star-off"></i></span> <%} %>
                           </div>
                         </div>
                       </div>
-                      <div class="comment clearfix">
-                        <div class="comment-avatar"><img src="" alt="avatar"/></div>
-                        <div class="comment-content clearfix">
-                          <div class="comment-author font-alt"><a href="#">Mark Stone</a></div>
-                          <div class="comment-body">
-                            <p>Europe uses the same vocabulary. The European languages are members of the same family. Their separate existence is a myth.</p>
-                          </div>
-                          <div class="comment-meta font-alt">Today, 14:59 -<span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star"></i></span><span><i class="fa fa-star star-off"></i></span><span><i class="fa fa-star star-off"></i></span>
-                          </div>
-                        </div>
-                      </div>
+                       
+                      
+                      <% } %>
+                      
                     </div>
+                    
+                    
+                    
+                    
                     <div class="comment-form mt-30">
                       <h4 class="comment-form-title font-alt">Add review</h4>
-                      <form method="post">
+                      <form method="post" action = "addReview?no=<%= product.getNo() %>">>
                         <div class="row">
                           <div class="col-sm-4">
                             <div class="form-group">
-                              <label class="sr-only" for="name">Name</label>
-                              <input class="form-control" id="name" type="text" name="name" placeholder="Name"/>
+                              <label class="sr-only" for="name"  >Name</label>
+                              <input class="form-control" id="name" type="text" name="name" placeholder="Name" required/>
                             </div>
                           </div>
                           <div class="col-sm-4">
                             <div class="form-group">
-                              <label class="sr-only" for="email">Name</label>
-                              <input class="form-control" id="email" type="text" name="email" placeholder="E-mail"/>
+                              <label class="sr-only" for="email" >Email</label>
+                              <input class="form-control" id="email" type="text" name="email" placeholder="E-mail" required/>
                             </div>
                           </div>
                           <div class="col-sm-4">
                             <div class="form-group">
-                              <select class="form-control">
-                                <option selected="true" disabled="">Rating</option>
+                              <select class="form-control" name = "rating" required>
+                                <option selected="true" disabled=""  >Rating</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -508,7 +528,7 @@
                           </div>
                           <div class="col-sm-12">
                             <div class="form-group">
-                              <textarea class="form-control" id="" name="" rows="4" placeholder="Review"></textarea>
+                              <textarea class="form-control" id="" name="review" rows="4" placeholder="Review" required></textarea>
                             </div>
                           </div>
                           <div class="col-sm-12">
@@ -523,6 +543,13 @@
             </div>
           </div>
         </section>
+        <%
+        	//Related Products Section
+        	List<RelatedProduct> related = (List<RelatedProduct>)session.getAttribute("related");
+        	
+        
+        %>
+        
         <hr class="divider-w">
         <section class="module-small">
           <div class="container">
@@ -532,38 +559,29 @@
               </div>
             </div>
             <div class="row multi-columns-row">
+            
+            <% for(RelatedProduct relPro: related){ 
+            	String href = "showSingle?id="+relPro.getId();
+            	String price2 = (relPro.getAvail()==0)?("OUT OF STOCK"):("Rs "+relPro.getPrice());
+            
+            %>
+            
+            
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="shop-item">
-                  <div class="shop-item-image"><img src="assets/images/shop/product-11.jpg" alt="Accessories Pack"/>
+                  <div class="shop-item-image"><img src="assets/images/shop/<%=relPro.getImage() %>" alt="<%= relPro.getName() %>"/>
                     <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
                   </div>
-                  <h4 class="shop-item-title font-alt"><a href="#">Accessories Pack</a></h4>£9.00
+                  <h4 class="shop-item-title font-alt"><a href="<%= href %>"><%= relPro.getName() %></a></h4><%=price2%>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="shop-item">
-                  <div class="shop-item-image"><img src="assets/images/shop/product-12.jpg" alt="Men’s Casual Pack"/>
-                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
-                  </div>
-                  <h4 class="shop-item-title font-alt"><a href="#">Men’s Casual Pack</a></h4>£12.00
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="shop-item">
-                  <div class="shop-item-image"><img src="assets/images/shop/product-13.jpg" alt="Men’s Garb"/>
-                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
-                  </div>
-                  <h4 class="shop-item-title font-alt"><a href="#">Men’s Garb</a></h4>£6.00
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="shop-item">
-                  <div class="shop-item-image"><img src="assets/images/shop/product-14.jpg" alt="Cold Garb"/>
-                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
-                  </div>
-                  <h4 class="shop-item-title font-alt"><a href="#">Cold Garb</a></h4>£14.00
-                </div>
-              </div>
+               
+              
+              
+             <% } %> 
+              
+              
+              
             </div>
           </div>
         </section>

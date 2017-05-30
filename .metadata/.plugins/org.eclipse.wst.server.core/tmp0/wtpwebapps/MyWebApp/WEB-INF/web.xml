@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+ 
 <web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+   
     <display-name>MyWebApp</display-name>
     <servlet>
     	<description>
@@ -36,6 +38,20 @@
     	<url-pattern>/showSingle</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+    	<servlet-name>Review</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.AddReview</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>Review</servlet-name>
+    	<url-pattern>/addReview</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>LoginOrSignup</servlet-name>
+    	<url-pattern>/doWithGmail.do</url-pattern>
+    </servlet-mapping>
+     
+    
     
     <servlet>
     	<description>
@@ -43,6 +59,20 @@
     	<display-name>SingleProduct</display-name>
     	<servlet-name>SingleProduct</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.SingleProduct</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>AddReview</display-name>
+    	<servlet-name>AddReview</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.AddReview</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>LoginOrSignup</display-name>
+    	<servlet-name>LoginOrSignup</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.LoginOrSignup</servlet-class>
     </servlet>
     
     
@@ -56,4 +86,6 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
         </welcome-file-list>
-    </web-app>
+        
+    </web-app> 
+ 

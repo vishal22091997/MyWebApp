@@ -1,0 +1,12 @@
+package sethi.vishal.MyWebApp.classes;
+
+import sethi.vishal.MyWebApp.entity.Product;
+
+public class RelatedProduct extends Product{
+	private String image;
+	public RelatedProduct(Product product, String image){
+		super(product);
+		this.image = image;
+	}
+
+}

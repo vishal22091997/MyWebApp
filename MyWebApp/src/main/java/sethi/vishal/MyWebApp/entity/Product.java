@@ -175,7 +175,22 @@ public class Product {
 	public void setRatings(int ratings) {
 		this.ratings = ratings;
 	}
-	
-
+	public Product(Product product){
+		this.id = product.id;
+		this.no = product.no;
+		this.brand = product.brand;
+		this.name = product.name;
+		this.type = product.type;
+		this.seller = product.seller;
+		this.price = product.price;
+		this.discount = product.discount;
+		this.discription = product.discription;
+		this.remarks = product.remarks;
+		this.ratings = product.ratings;
+		this.avail = product.getAvail();
+		 
+		
+	}
+	 
 
 }
