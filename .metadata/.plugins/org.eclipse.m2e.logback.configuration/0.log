@@ -4501,3 +4501,7 @@ java.lang.NullPointerException: null
 2017-06-01 16:54:22,018 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
 2017-06-01 16:54:22,020 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-06-01 16:54:22,021 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 23:20:21,916 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 23:20:21,921 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 23:20:21,922 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 23:20:21,923 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources

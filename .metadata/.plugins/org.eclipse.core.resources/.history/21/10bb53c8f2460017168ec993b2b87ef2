@@ -41,7 +41,6 @@ public class DisplayCart extends HttpServlet {
 		session.setAttribute("cart", makeCart);
 		List<CartObject> cartObjects = makeCart.makeCart();
 		session.setAttribute("cart", cartObjects);
-		// I am this
 		System.out.println("Reached here");
 		System.out.print(makeCart);
 		RequestDispatcher dispatch = request.getRequestDispatcher("shop_checkout.jsp");
