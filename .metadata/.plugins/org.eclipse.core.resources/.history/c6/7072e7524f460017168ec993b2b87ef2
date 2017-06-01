@@ -1,0 +1,35 @@
+package sethi.vishal.MyWebApp.classes;
+
+import sethi.vishal.MyWebApp.entity.Product;
+
+public class CartObject  {
+	private Product product;
+	private String image;
+	
+	public Product getProduct() {
+		return product;
+	}
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
+	}
+	 
+	@Override
+	public String toString() {
+		return "DisplayCart [product=" + product + ", image=" + image + ", count=" + count + "]";
+	}
+	public CartObject(Product product, String image ) {
+		super();
+		this.product = product;
+		this.image = image;
+		 
+	}
+	
+	 
+
+}

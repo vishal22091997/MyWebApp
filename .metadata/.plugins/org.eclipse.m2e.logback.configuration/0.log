@@ -3505,3 +3505,999 @@ java.lang.NullPointerException: null
 2017-05-30 03:50:49,178 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
 2017-05-30 03:50:49,180 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-30 03:50:49,181 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-30 20:05:07,339 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 20:05:07,454 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-30 20:05:07,472 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 20:05:07,473 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 01:40:53,702 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 01:40:53,752 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 01:40:53,757 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 01:40:53,759 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:07:35,843 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:07:35,844 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:07:35,847 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:07:35,848 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:09:36,523 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:09:36,526 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:09:36,529 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:09:36,537 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:10:13,043 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:10:13,047 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:10:13,050 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:10:13,051 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:12:01,562 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:12:01,564 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:12:01,566 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:12:01,567 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:28:56,227 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:28:56,229 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:28:56,264 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:28:56,265 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:30:03,060 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:30:03,063 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:30:03,065 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:30:03,066 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:31:30,450 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:31:30,451 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:31:30,455 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:31:30,460 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:38:48,098 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:38:48,099 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:38:48,102 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:38:48,103 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:48:36,043 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:48:36,046 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:48:36,048 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:48:36,049 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:48:39,877 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:48:39,878 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:48:39,896 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:48:39,898 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:49:08,483 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:49:08,484 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:49:08,488 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:49:08,489 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 02:54:42,627 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:54:42,629 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 02:54:42,634 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 02:54:42,635 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:06:26,819 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:06:26,821 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:06:26,824 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:06:26,825 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:06:53,191 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:06:53,192 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:06:53,194 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:06:53,196 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:09:04,117 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:09:04,118 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:09:04,120 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:09:04,121 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:10:15,565 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:10:15,566 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:10:15,568 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:10:15,569 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:14:23,012 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:14:23,013 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:14:23,015 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:14:23,016 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:14:58,264 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:14:58,267 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:14:58,269 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:14:58,271 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:15:35,516 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:15:35,517 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:15:35,520 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:15:35,521 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:17:41,296 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:17:41,297 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:17:41,301 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:17:41,302 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:18:11,994 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:18:11,995 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:18:11,998 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:18:11,999 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:19:58,133 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:19:58,134 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:19:58,136 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:19:58,137 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:20:15,195 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:20:15,196 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:20:15,198 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:20:15,209 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:21:16,905 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:21:16,907 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:21:16,908 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:21:16,910 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:24:10,109 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:24:10,110 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:24:10,112 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:24:10,113 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:24:56,872 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:24:56,873 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:24:56,875 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:24:56,876 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:26:39,509 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:26:39,510 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:26:39,512 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:26:39,514 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:42:01,236 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:42:01,238 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:42:01,240 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:42:01,241 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:47:45,287 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:47:45,289 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:47:45,291 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:47:45,293 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:52:04,838 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:52:04,839 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:52:04,841 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:52:04,842 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:52:08,797 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:52:08,799 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:52:08,812 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:52:08,813 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 03:52:26,041 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:52:26,042 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 03:52:26,043 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 03:52:26,044 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:01:03,433 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:01:03,435 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:01:03,438 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:01:03,439 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:01:12,289 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:01:12,290 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:01:12,291 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:01:12,293 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:03:03,066 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:03:03,067 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:03:03,069 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:03:03,070 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:04:26,020 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:04:26,022 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:04:26,026 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:04:26,040 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:22:10,269 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:22:10,270 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:22:10,272 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:22:10,273 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:22:40,083 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:22:40,084 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:22:40,090 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:22:40,092 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:23:01,661 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:23:01,663 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:23:01,664 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:23:01,666 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:28:04,819 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:28:04,822 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:28:04,824 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:28:04,825 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:28:41,633 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:28:41,634 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:28:41,636 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:28:41,637 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:31:29,520 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:31:29,522 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:31:29,523 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:31:29,524 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:35:18,408 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:35:18,410 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:35:18,412 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:35:18,413 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:35:51,247 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:35:51,248 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:35:51,250 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:35:51,252 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:36:04,320 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:36:04,321 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:36:04,323 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:36:04,324 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:40:39,047 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:40:39,048 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:40:39,049 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:40:39,050 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:41:42,067 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:41:42,068 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:41:42,069 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:41:42,070 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:45:18,796 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:45:18,797 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:45:18,798 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:45:18,799 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:49:12,294 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:49:12,295 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:49:12,297 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:49:12,299 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:58:25,284 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:58:25,285 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:58:25,286 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:58:25,287 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 04:58:49,901 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:58:49,903 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 04:58:49,905 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 04:58:49,906 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:02:22,676 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:02:22,678 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:02:22,679 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:02:22,680 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:02:39,991 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:02:39,992 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:02:39,994 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:02:39,995 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:08:57,341 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:08:57,343 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:08:57,344 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:08:57,345 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:11:15,330 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:11:15,331 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:11:15,333 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:11:15,334 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:19:21,057 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:19:21,058 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:19:21,060 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:19:21,061 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:20:54,939 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:20:54,940 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:20:54,942 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:20:54,944 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:21:00,463 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:21:00,464 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:21:00,466 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:21:00,467 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:21:55,626 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:21:55,628 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:21:55,630 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:21:55,631 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:23:36,187 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:23:36,189 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:23:36,190 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:23:36,192 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:24:14,584 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:14,586 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:24:14,587 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:14,589 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:24:34,046 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:34,048 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:24:34,049 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:34,051 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:24:54,531 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:54,532 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:24:54,535 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:54,537 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:24:58,610 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:58,612 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:24:58,613 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:24:58,614 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:25:06,343 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:25:06,345 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:25:06,346 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:25:06,348 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:25:25,064 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:25:25,065 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:25:25,067 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:25:25,068 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:26:24,145 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:26:24,147 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:26:24,148 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:26:24,150 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:27:36,176 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:27:36,177 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:27:36,179 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:27:36,180 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:30:06,969 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:30:06,970 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:30:06,972 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:30:06,973 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:32:16,356 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:32:16,357 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:32:16,359 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:32:16,360 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:33:18,808 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:33:18,810 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:33:18,812 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:33:18,813 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:33:49,699 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:33:49,700 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:33:49,702 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:33:49,703 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:34:00,535 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:34:00,536 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:34:00,538 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:34:00,539 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:36:19,769 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:36:19,770 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:36:19,772 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:36:19,773 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:37:54,303 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:37:54,305 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:37:54,306 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:37:54,307 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:38:11,618 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:38:11,619 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:38:11,621 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:38:11,622 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:38:26,324 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:38:26,326 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:38:26,328 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:38:26,329 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:38:30,758 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:38:30,759 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:38:30,761 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:38:30,762 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:41:36,204 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:41:36,206 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:41:36,208 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:41:36,209 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:46:09,135 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:46:09,136 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:46:09,138 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:46:09,139 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:46:15,253 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:46:15,254 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:46:15,256 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:46:15,257 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 05:50:54,409 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:50:54,410 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 05:50:54,411 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 05:50:54,413 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:00:10,600 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:00:10,602 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:00:10,604 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:00:10,605 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:00:43,945 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:00:43,946 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:00:43,948 [Worker-145] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:00:43,949 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:02:11,314 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:02:11,316 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:02:11,318 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:02:11,319 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:07:19,807 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:07:19,808 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:07:19,810 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:07:19,811 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:08:00,742 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:08:00,743 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:08:00,745 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:08:00,746 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:11:25,515 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:11:25,516 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:11:25,517 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:11:25,518 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:19:29,247 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:19:29,248 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:19:29,250 [Worker-151] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:19:29,251 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:25:39,252 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:25:39,253 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:25:39,257 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:25:39,258 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:26:16,794 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:26:16,795 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:26:16,804 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:26:16,805 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:28:47,069 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:28:47,071 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:28:47,072 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:28:47,073 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:29:22,292 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:29:22,294 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:29:22,295 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:29:22,297 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:29:53,517 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:29:53,518 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:29:53,520 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:29:53,521 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:32:34,998 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:32:34,999 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:32:35,001 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:32:35,002 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:33:23,614 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:33:23,616 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:33:23,617 [Worker-157] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:33:23,618 [Worker-157] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 14:37:05,214 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:37:05,215 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 14:37:05,217 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:37:05,218 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:13:35,054 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:13:35,057 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:13:35,059 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:13:35,060 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:20:29,717 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:20:29,718 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:20:29,721 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:20:29,722 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:42:24,031 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:42:24,033 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:42:24,039 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:42:24,041 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:47:58,472 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:47:58,474 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:47:58,475 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:47:58,476 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:48:18,294 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:48:18,295 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:48:18,297 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:48:18,298 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:48:38,092 [Worker-180] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:48:38,093 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:48:38,094 [Worker-180] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:48:38,095 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 15:52:08,106 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:52:08,107 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 15:52:08,108 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 15:52:08,110 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:06:54,950 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:06:54,952 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:06:54,954 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:06:54,955 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:08:40,238 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:08:40,239 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:08:40,241 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:08:40,242 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:10:41,361 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:10:41,362 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:10:41,364 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:10:41,366 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:13:10,248 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:13:10,250 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:13:10,251 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:13:10,252 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:13:13,498 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:13:13,499 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:13:13,501 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:13:13,503 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:26:14,429 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:26:14,431 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:26:14,432 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:26:14,433 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:27:45,229 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:27:45,230 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:27:45,232 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:27:45,233 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:31:38,660 [Worker-197] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:31:38,663 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:31:38,667 [Worker-197] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:31:38,668 [Worker-197] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:31:54,646 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:31:54,647 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:31:54,649 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:31:54,650 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:32:29,546 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:32:29,547 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:32:29,548 [Worker-195] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:32:29,549 [Worker-195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:34:52,657 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:34:52,658 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:34:52,660 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:34:52,662 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:39:08,653 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:39:08,655 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:39:08,656 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:39:08,658 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:53:22,647 [Worker-204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:53:22,649 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:53:22,650 [Worker-204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:53:22,652 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:53:41,796 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:53:41,797 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:53:41,798 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:53:41,799 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:54:10,196 [Worker-202] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:54:10,198 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:54:10,199 [Worker-202] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:54:10,201 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 16:58:17,414 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:58:17,416 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 16:58:17,419 [Worker-181] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 16:58:17,420 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-05-31 17:03:54,685 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:03:54,687 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-05-31 17:03:54,689 [Worker-194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 17:03:54,690 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 00:47:33,159 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:47:33,211 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 00:47:33,213 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:47:33,214 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 00:47:57,628 [Worker-201] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:47:57,629 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 00:47:57,632 [Worker-201] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:47:57,633 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 00:48:22,227 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:48:22,229 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 00:48:22,231 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:48:22,232 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 00:58:13,313 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:58:13,314 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 00:58:13,316 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:58:13,318 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 00:59:43,812 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:59:43,813 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 00:59:43,815 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 00:59:43,816 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:00:02,326 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:00:02,327 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:00:02,329 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:00:02,331 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:00:22,367 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:00:22,368 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:00:22,371 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:00:22,372 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:02:23,118 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:02:23,119 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:02:23,121 [Worker-220] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:02:23,122 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:03:31,094 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:03:31,095 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:03:31,096 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:03:31,097 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:05:04,338 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:05:04,340 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:05:04,342 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:05:04,343 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:07:59,358 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:07:59,359 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:07:59,360 [Worker-207] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:07:59,362 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:11:04,074 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:11:04,075 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:11:04,077 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:11:04,078 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:11:13,820 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:11:13,821 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:11:13,825 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:11:13,826 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:12:45,889 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:12:45,891 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:12:45,892 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:12:45,893 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:13:31,142 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:13:31,143 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:13:31,145 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:13:31,146 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:18:23,595 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:18:23,597 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:18:23,599 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:18:23,600 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:21:55,861 [Worker-228] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:21:55,863 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:21:55,864 [Worker-228] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:21:55,865 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:22:05,926 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:22:05,927 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:22:05,928 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:22:05,930 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:22:10,020 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:22:10,025 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:22:10,027 [Worker-190] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:22:10,037 [Worker-190] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:25:38,651 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:25:38,653 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:25:38,654 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:25:38,656 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:25:41,788 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:25:41,789 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:25:41,790 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:25:41,792 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:26:03,784 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:26:03,785 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:26:03,787 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:26:03,788 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:28:17,967 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:28:17,968 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:28:17,970 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:28:17,971 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:28:22,144 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:28:22,145 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:28:22,147 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:28:22,148 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:30:47,359 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:30:47,360 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:30:47,361 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:30:47,362 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:33:52,346 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:33:52,347 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:33:52,348 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:33:52,350 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:34:24,462 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:34:24,464 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:34:24,465 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:34:24,466 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:39:52,316 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:39:52,317 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:39:52,319 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:39:52,320 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:40:20,215 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:40:20,216 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:40:20,217 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:40:20,218 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:41:42,166 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:41:42,167 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:41:42,169 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:41:42,172 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:42:04,931 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:42:04,932 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:42:04,934 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:42:04,935 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:42:10,538 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:42:10,539 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:42:10,541 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:42:10,542 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:44:50,484 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:44:50,485 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:44:50,486 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:44:50,487 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:48:35,126 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:48:35,127 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:48:35,129 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:48:35,130 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:48:59,476 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:48:59,477 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:48:59,479 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:48:59,480 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:49:13,511 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:49:13,512 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:49:13,514 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:49:13,515 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:54:55,770 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:54:55,771 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:54:55,772 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:54:55,774 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:55:29,672 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:55:29,674 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:55:29,675 [Worker-238] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:55:29,677 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:55:51,484 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:55:51,485 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:55:51,487 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:55:51,488 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:56:54,901 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:56:54,902 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:56:54,904 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:56:54,905 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:58:29,555 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:58:29,556 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:58:29,557 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:58:29,558 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:59:16,227 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:59:16,228 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:59:16,229 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:59:16,230 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 01:59:29,322 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:59:29,323 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 01:59:29,324 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 01:59:29,325 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:01:35,489 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:01:35,490 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:01:35,492 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:01:35,493 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:01:59,692 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:01:59,693 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:01:59,695 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:01:59,697 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:02:13,829 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:02:13,830 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:02:13,832 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:02:13,833 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:02:58,672 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:02:58,674 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:02:58,675 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:02:58,676 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:07:46,616 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:07:46,618 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:07:46,619 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:07:46,620 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:15:03,888 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:15:03,889 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:15:03,890 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:15:03,892 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:16:03,103 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:03,104 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:16:03,106 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:03,107 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:16:30,056 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:30,057 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:16:30,058 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:30,059 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:16:46,203 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:46,204 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:16:46,206 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:46,207 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:16:51,521 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:51,522 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:16:51,523 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:16:51,525 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:17:29,656 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:17:29,657 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:17:29,659 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:17:29,660 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:19:55,815 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:19:55,816 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:19:55,817 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:19:55,818 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:20:19,750 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:20:19,751 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:20:19,752 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:20:19,753 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:20:46,859 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:20:46,861 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:20:46,862 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:20:46,863 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:21:03,327 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:21:03,329 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:21:03,330 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:21:03,331 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:21:11,420 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:21:11,420 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:21:11,422 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:21:11,423 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:23:01,311 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:23:01,312 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:23:01,314 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:23:01,315 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:32:04,329 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:32:04,330 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:32:04,331 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:32:04,333 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 02:40:01,098 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:40:01,099 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 02:40:01,100 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 02:40:01,102 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:26:01,176 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:26:01,178 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:26:01,179 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:26:01,180 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:26:31,861 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:26:31,862 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:26:31,864 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:26:31,865 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:26:39,078 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:26:39,079 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:26:39,080 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:26:39,082 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:28:07,241 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:28:07,244 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:28:07,245 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:28:07,246 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:28:39,857 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:28:39,858 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:28:39,860 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:28:39,861 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:30:13,135 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:30:13,136 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:30:13,138 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:30:13,139 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:30:30,085 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:30:30,086 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:30:30,087 [Worker-255] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:30:30,088 [Worker-255] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:31:57,142 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:31:57,144 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:31:57,146 [Worker-256] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:31:57,152 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:42:00,473 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:42:00,474 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:42:00,476 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:42:00,477 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:43:00,915 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:43:00,917 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:43:00,920 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:43:00,921 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:43:12,082 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:43:12,083 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:43:12,084 [Worker-260] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:43:12,085 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:50:11,971 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:50:11,973 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:50:11,974 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:50:11,976 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:50:17,020 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:50:17,020 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:50:17,022 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:50:17,023 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:51:50,209 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:51:50,210 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:51:50,211 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:51:50,212 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:53:03,182 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:53:03,183 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:53:03,185 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:53:03,186 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:55:56,668 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:55:56,669 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:55:56,671 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:55:56,672 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:57:27,648 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:57:27,648 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:57:27,650 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:57:27,651 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:58:10,489 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:58:10,490 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:58:10,491 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:58:10,492 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:59:10,518 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:59:10,519 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:59:10,520 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:59:10,521 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 03:59:28,629 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:59:28,632 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 03:59:28,633 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 03:59:28,634 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 04:01:13,056 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 04:01:13,057 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 04:01:13,058 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 04:01:13,060 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 04:01:33,951 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 04:01:33,953 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 04:01:33,954 [Worker-237] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 04:01:33,955 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 04:01:37,888 [Worker-265] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 04:01:37,889 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 04:01:37,891 [Worker-265] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 04:01:37,892 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 12:30:22,025 [Worker-265] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 12:30:22,028 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 12:30:22,030 [Worker-265] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 12:30:22,031 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 12:30:42,285 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 12:30:42,286 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 12:30:42,288 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 12:30:42,289 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 12:41:44,003 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 12:41:44,004 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 12:41:44,006 [Worker-253] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 12:41:44,007 [Worker-253] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:00:10,596 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:00:10,597 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:00:10,598 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:00:10,600 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:00:33,987 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:00:33,988 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:00:33,990 [Worker-250] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:00:33,991 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:01:10,448 [Worker-270] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:01:10,449 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:01:10,450 [Worker-270] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:01:10,451 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:04:22,327 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:04:22,329 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:04:22,330 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:04:22,332 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:05:52,057 [Worker-274] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:05:52,058 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:05:52,061 [Worker-274] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:05:52,062 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:06:00,265 [Worker-275] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:06:00,266 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:06:00,267 [Worker-275] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:06:00,268 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:08:12,103 [Worker-275] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:08:12,104 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:08:12,111 [Worker-275] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:08:12,112 [Worker-275] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:13:41,136 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:13:41,138 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:13:41,140 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:13:41,141 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:13:44,079 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:13:44,081 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:13:44,082 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:13:44,083 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:14:34,350 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:14:34,352 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:14:34,353 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:14:34,361 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:16:38,010 [Worker-277] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:16:38,012 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:16:38,013 [Worker-277] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:16:38,014 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:17:19,609 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:17:19,610 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:17:19,612 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:17:19,613 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:19:08,290 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:19:08,291 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:19:08,294 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:19:08,295 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:19:10,583 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:19:10,584 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:19:10,588 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:19:10,589 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:19:38,845 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:19:38,846 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:19:38,847 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:19:38,849 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:21:26,029 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:21:26,030 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:21:26,032 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:21:26,033 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:24:34,980 [Worker-278] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:24:34,981 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:24:34,982 [Worker-278] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:24:34,983 [Worker-278] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:33:08,261 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:33:08,262 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:33:08,264 [Worker-280] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:33:08,265 [Worker-280] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:47:12,591 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:47:12,592 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:47:12,593 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:47:12,594 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:55:42,524 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:55:42,526 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:55:42,528 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:55:42,529 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:56:35,902 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:56:35,903 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:56:35,904 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:56:35,905 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 13:57:30,045 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:57:30,046 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 13:57:30,049 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 13:57:30,050 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 14:02:35,343 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:02:35,344 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 14:02:35,346 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:02:35,347 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 14:04:42,478 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:04:42,480 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 14:04:42,515 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:04:42,516 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 14:06:13,080 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:06:13,082 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 14:06:13,083 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:06:13,085 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 14:08:28,965 [Worker-288] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:08:28,967 [Worker-288] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 14:08:28,968 [Worker-288] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 14:08:28,969 [Worker-288] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:34:47,839 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:34:47,906 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:34:47,907 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:34:47,908 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:37:21,036 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:37:21,037 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:37:21,039 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:37:21,040 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:38:20,426 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:38:20,428 [Worker-292] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:38:20,430 [Worker-292] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:38:20,431 [Worker-292] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:38:43,374 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:38:43,375 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:38:43,377 [Worker-269] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:38:43,378 [Worker-269] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:39:15,995 [Worker-293] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:39:15,996 [Worker-293] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:39:15,997 [Worker-293] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:39:15,998 [Worker-293] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:43:10,548 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:43:10,549 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:43:10,551 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:43:10,552 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:43:28,003 [Worker-293] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:43:28,004 [Worker-293] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:43:28,005 [Worker-293] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:43:28,006 [Worker-293] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:43:30,201 [Worker-284] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:43:30,202 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:43:30,206 [Worker-284] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:43:30,208 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 15:48:53,858 [Worker-294] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:48:53,859 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 15:48:53,861 [Worker-294] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:48:53,862 [Worker-294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 16:42:52,752 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 16:42:52,754 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 16:42:52,756 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 16:42:52,757 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 16:49:38,499 [Worker-296] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 16:49:38,501 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 16:49:38,502 [Worker-296] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 16:49:38,503 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources
+2017-06-01 16:54:22,016 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 16:54:22,018 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\main\resources
+2017-06-01 16:54:22,020 [Worker-306] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 16:54:22,021 [Worker-306] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vishal\Documents\GitHub\MyWebApp\MyWebApp\src\test\resources

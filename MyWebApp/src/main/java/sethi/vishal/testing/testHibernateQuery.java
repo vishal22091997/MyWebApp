@@ -9,6 +9,7 @@ import org.hibernate.query.Query;
 
 import sethi.vishal.MyWebApp.classes.RelatedProduct;
 import sethi.vishal.MyWebApp.entity.Brand;
+import sethi.vishal.MyWebApp.entity.Cart;
 import sethi.vishal.MyWebApp.entity.Colors;
 import sethi.vishal.MyWebApp.entity.Image;
 import sethi.vishal.MyWebApp.entity.MainImageBig;
@@ -18,30 +19,14 @@ import sethi.vishal.MyWebApp.entity.Type;
 
 public class testHibernateQuery {
 	public static void main(String hd[]){
-		Session session = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory().getCurrentSession();
-		session.beginTransaction();
-		Query query = session.createQuery("from Product where type = "+1+" order by ratings DESC");
-		query.setFirstResult(0);
-		query.setMaxResults(4);
-		
-		List<Product> list = query.list();
 
-		session.getTransaction().commit();
-		session.close();
+		Session session2 = new Configuration().configure().addAnnotatedClass(MainImageBig.class).buildSessionFactory().getCurrentSession();
+		session2.beginTransaction();
+		MainImageBig image = session2.get(MainImageBig.class, 1);
+		session2.getTransaction().commit();
+		session2.close();
 		
-		
-		System.out.println(list);
-		List<RelatedProduct> related = new ArrayList<RelatedProduct>();
-		for(Product product : list){
-			Session session1 = new Configuration().configure().addAnnotatedClass(MainImageBig.class).buildSessionFactory().getCurrentSession();
-			session1.beginTransaction();
-			MainImageBig image = session1.get(MainImageBig.class,product.getNo());
-			RelatedProduct relpro = new RelatedProduct(product, image.getImage());
-			related.add(relpro);
-		}
-		
-		
-		System.out.println(related); ;
+		System.out.println(image);
 	}
 
 }

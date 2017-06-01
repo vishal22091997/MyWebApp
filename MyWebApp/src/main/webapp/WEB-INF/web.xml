@@ -50,6 +50,22 @@
     	<servlet-name>LoginOrSignup</servlet-name>
     	<url-pattern>/doWithGmail.do</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>LoginButtonClick</servlet-name>
+    	<url-pattern>/Login.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>Signout</servlet-name>
+    	<url-pattern>/Signout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AddToCart</servlet-name>
+    	<url-pattern>/AddToCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>DisplayCart</servlet-name>
+    	<url-pattern>/DisplayCart</url-pattern>
+    </servlet-mapping>
      
     
     
@@ -73,6 +89,34 @@
     	<display-name>LoginOrSignup</display-name>
     	<servlet-name>LoginOrSignup</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.LoginOrSignup</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>LoginButtonClick</display-name>
+    	<servlet-name>LoginButtonClick</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.LoginButtonClick</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Signout</display-name>
+    	<servlet-name>Signout</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.Signout</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>AddToCart</display-name>
+    	<servlet-name>AddToCart</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.AddToCart</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>DisplayCart</display-name>
+    	<servlet-name>DisplayCart</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.DisplayCart</servlet-class>
     </servlet>
     
     

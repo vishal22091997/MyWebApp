@@ -1,0 +1,18 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.util.List;
+
+import sethi.vishal.MyWebApp.entity.Product;
+
+public class MakeCart {
+	 int id ;
+
+	public MakeCart(int id) {
+		super();
+		this.id = id;
+	}
+	 
+	public List<CartObject> makeCart(){
+		
+	}
+}

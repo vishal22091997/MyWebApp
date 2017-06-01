@@ -1,0 +1,32 @@
+package sethi.vishal.testing;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+import sethi.vishal.MyWebApp.classes.RelatedProduct;
+import sethi.vishal.MyWebApp.entity.Brand;
+import sethi.vishal.MyWebApp.entity.Cart;
+import sethi.vishal.MyWebApp.entity.Colors;
+import sethi.vishal.MyWebApp.entity.Image;
+import sethi.vishal.MyWebApp.entity.MainImageBig;
+import sethi.vishal.MyWebApp.entity.Product;
+import sethi.vishal.MyWebApp.entity.Seller;
+import sethi.vishal.MyWebApp.entity.Type;
+
+public class testHibernateQuery {
+	public static void main(String hd[]){
+		Session session = new Configuration().configure().addAnnotatedClass(Cart.class).buildSessionFactory().getCurrentSession();
+		session.beginTransaction();
+		List<Cart> list = session.createQuery("from Cart where custId = 11").list();
+		session.getTransaction().commit();
+		session.close();
+		System.out.prinln(list);
+		
+		
+	}
+
+}

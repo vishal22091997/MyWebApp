@@ -1,0 +1,7 @@
+package sethi.vishal.MyWebApp.classes;
+
+public class AddingToCart {
+	private String prodId;
+	 
+
+}
