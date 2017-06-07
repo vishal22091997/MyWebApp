@@ -1,0 +1,21 @@
+package sethi.vishal.MyWebApp.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "CONTACTMESSAGE")
+public class ContactMessage {
+	@Id
+	@Column(name = "id")
+	private int id;
+	
+	@Column(name = "USER_ID")
+	private int user_id;
+	
+	@Column(name = "MESSAGE")
+	private String message;
+	
+}

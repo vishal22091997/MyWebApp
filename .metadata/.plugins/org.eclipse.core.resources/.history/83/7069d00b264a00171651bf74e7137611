@@ -1,0 +1,14 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.util.List;
+
+public class UpdatingCart {
+	private List<CartObject> cart;
+	public UpdatingCart(List<CartObject> cart){
+		this.cart = cart;
+	}
+	public void update(){
+		
+	}
+
+}

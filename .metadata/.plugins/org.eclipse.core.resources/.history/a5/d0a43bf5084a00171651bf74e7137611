@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class UNIONSET {
+	public static void main(String jdj[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n = scan.nextInt(), k = scan.nextInt();
+			List<List<Integer>> list = new ArrayList<List<Integer>>();
+			int nums[] = new int[n];
+			for(int i=0;i<n;i++){
+				int len = scan.nextInt();
+				nums[i] = len;
+				boolean check[] = new boolean[len+1];
+				for(int j=0;j<len;j++){
+					int cur = scan.nextInt();
+					check[cur] = true;
+				}
+				for(int j=1;j<=len;j++){
+					if(check[j]!=true){
+						
+					}
+				}
+			}
+		}
+	}
+
+}

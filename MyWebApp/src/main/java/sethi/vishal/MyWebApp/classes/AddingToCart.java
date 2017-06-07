@@ -21,7 +21,8 @@ public class AddingToCart {
 	}
 	
 	public void addToCart(){
-		Session session = new Configuration().configure().addAnnotatedClass(Cart.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Cart.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		int userId = user.getId();
 		List<Cart> list = (List<Cart>)session.createQuery("from Cart where cust_id="+userId+" and product_id='"+prodId+"'").list();
@@ -39,7 +40,7 @@ public class AddingToCart {
 			session2.getTransaction().commit();
 			session2.close();
 		}
-		
+		factory.close();
 	}
 
 }

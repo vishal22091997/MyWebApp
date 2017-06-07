@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import sethi.vishal.MyWebApp.entity.Review;
@@ -15,12 +16,13 @@ public class AddReviewToDb {
 		Date date = new Date();
 		
 		Review review = new Review(email,rating, revi, name, no, dateFormat.format(date),1);
-		 
-		Session session = new Configuration().configure().addAnnotatedClass(Review.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Review.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		session.save(review);
 		session.getTransaction().commit();
 		session.close();
+		factory.close();
 		
 	}
 

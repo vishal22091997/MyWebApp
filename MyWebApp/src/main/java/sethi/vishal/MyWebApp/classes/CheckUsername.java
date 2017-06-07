@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.sql.ordering.antlr.Factory;
 
@@ -53,33 +54,38 @@ public class CheckUsername {
 		return(dateFormat.format(date)); //2016/11/16 12:08:43
 	}
 	public User checkUser(){
-		Session session = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory1 = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+		Session session = factory1.getCurrentSession();
 		session.beginTransaction();
 		List<User> list = session.createQuery("from User where gmailid = '"+id+"'").list();
 		session.getTransaction().commit();
 		session.close();
-		
+		factory1.close();
 		
 		if(list.size()>0){
 			return list.get(0);
 		}else{
 			//Adding object into the database so as to use it for later purposes
-			Session session2 = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory().getCurrentSession();
+			SessionFactory factory2 = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+			Session session2 = factory2.getCurrentSession();
 			session2.beginTransaction();
 			User user = new User(id,email,imageUrl,returnDate(),name);
 			session2.save(user);
 			session2.getTransaction().commit();
 			session2.close();
+			factory2.close();
 			return getUser(id);
 		}
 	}
 	private User getUser(String id2) {
 		// TODO Auto-generated method stub
-		Session session = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory3 = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+		Session session = factory3.getCurrentSession();
 		session.beginTransaction();
 		List<User> list = session.createQuery("from User where gmailid = '"+id2+"'").list();
 		session.getTransaction().commit();
 		session.close();
+		factory3.close();
 		 
 		return list.get(0);
 	}

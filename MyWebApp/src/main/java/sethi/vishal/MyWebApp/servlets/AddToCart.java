@@ -31,7 +31,7 @@ public class AddToCart extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		doPost(request, response);
 	}
 
 	/**
@@ -54,8 +54,7 @@ public class AddToCart extends HttpServlet {
 			// add to cart and return back to same page 
 			 AddingToCart cartAdder = new AddingToCart(prodId, count, user);
 			 cartAdder.addToCart();
-			 RequestDispatcher dispatcher = request.getRequestDispatcher("DisplayCart");
-			 dispatcher.forward(request, response);
+			 response.sendRedirect("DisplayCart");
 			 
 		}
 			

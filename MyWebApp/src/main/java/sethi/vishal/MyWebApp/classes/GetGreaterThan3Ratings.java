@@ -29,6 +29,7 @@ public class GetGreaterThan3Ratings {
 		System.out.println(list2);;
 		System.out.println(list2.size());
 		session.close();
+		factory.close();
 		return list2;
 		
 	}

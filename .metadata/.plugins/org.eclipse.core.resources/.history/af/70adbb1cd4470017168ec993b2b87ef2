@@ -1,0 +1,26 @@
+package sethi.vishal.MyWebApp.classes;
+
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
+
+import sethi.vishal.MyWebApp.entity.Cart;
+
+public class RemoveFromCart {
+	private int id;
+	public RemoveFromCart(int id){
+		this.id = id;
+	}
+	public void remove(){
+		Session session = new Configuration().configure().addAnnotatedClass(Cart.class).buildSessionFactory().getCurrentSession();
+		session.beginTransaction();
+		Cart cart = session.get(Cart.class, id);
+		if(cart!=null){
+		session.delete(cart);
+		session.getTransaction().commit();
+		session.close();
+		}
+		session.close();
+	}
+
+}

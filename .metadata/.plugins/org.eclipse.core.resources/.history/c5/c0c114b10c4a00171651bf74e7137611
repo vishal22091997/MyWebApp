@@ -1,0 +1,75 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class UNIONSET {
+	public static void main(String jdj[]) throws NumberFormatException, IOException{
+		BufferedReader br = new BufferedReader(
+                new InputStreamReader(System.in));
+
+	 
+		int t = Integer.parseInt(br.readLine());
+		while(t-->0){
+			int n = scan.nextInt(), k = scan.nextInt();
+			List<List<Integer>> list = new ArrayList<List<Integer>>();
+			int nums[] = new int[n];
+			for(int i=0;i<n;i++){
+				int len = scan.nextInt();
+				nums[i] = len;
+				boolean check[] = new boolean[k+1];
+				for(int j=0;j<len;j++){
+					int cur = scan.nextInt();
+					check[cur] = true;
+				}
+				List<Integer> temp = new ArrayList<Integer>();
+				for(int j=1;j<=k;j++){
+					if(check[j]!=true){
+						temp.add(j);
+					}
+				}
+				list.add(i, temp);
+			}
+			int count = 0;
+			for(int i=0;i<n;i++){
+				List<Integer> main = list.get(i);
+				int mainLen = nums[i];
+				for(int j=i+1;j<n;j++){
+					List<Integer> sec = list.get(j);
+					int secLen = nums[j];
+					if(secLen+mainLen<k){
+						continue;
+					}else{
+						boolean find = true;
+						if(mainLen>secLen){
+							// it means that main list has less missings
+							for(int l=0,x=main.size();l<x;l++){
+								if(sec.contains(main.get(l))){
+									find = false;
+									break;
+								}
+							}
+						}else{
+							for(int l = 0,x=sec.size();l<x;l++){
+								if(main.contains(sec.get(l))){
+									find = false;
+									break;
+								}
+							}
+						}
+						if(find){
+							count++;
+						}
+					}
+					
+				}
+			}
+			System.out.println(count);
+			
+			
+		}
+	}
+
+}

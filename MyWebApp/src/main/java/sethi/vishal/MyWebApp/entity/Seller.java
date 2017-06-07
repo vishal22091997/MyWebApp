@@ -29,6 +29,30 @@ public class Seller {
 	
 	@Column(name = "JOIN_DATE")
 	private String joinDate;
+	
+	@Column(name = "PINCODE")
+	private int pincode;
+
+	public Seller(int id, String name, String address, long contact, int rating, String email, String joinDate,
+			int pincode) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+		this.rating = rating;
+		this.email = email;
+		this.joinDate = joinDate;
+		this.pincode = pincode;
+	}
+
+	public int getPincode() {
+		return pincode;
+	}
+
+	public void setPincode(int pincode) {
+		this.pincode = pincode;
+	}
 
 	public int getId() {
 		return id;
@@ -96,15 +120,6 @@ public class Seller {
 		
 	}
 
-	public Seller(int id, String name, String address, long contact, int rating, String email, String joinDate) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.address = address;
-		this.contact = contact;
-		this.rating = rating;
-		this.email = email;
-		this.joinDate = joinDate;
-	}
+	 
 	
 }

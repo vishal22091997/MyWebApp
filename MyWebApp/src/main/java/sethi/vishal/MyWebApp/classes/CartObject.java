@@ -6,6 +6,21 @@ public class CartObject  {
 	private Product product;
 	private String image;
 	private int count;
+	private int id;
+	public CartObject(Product product, String image, int count, int id) {
+		super();
+		this.product = product;
+		this.image = image;
+		this.count = count;
+		this.id = id;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public Product getProduct() {
 		return product;
 	}
@@ -28,12 +43,7 @@ public class CartObject  {
 	public String toString() {
 		return "DisplayCart [product=" + product + ", image=" + image + ", count=" + count + "]";
 	}
-	public CartObject(Product product, String image, int count) {
-		super();
-		this.product = product;
-		this.image = image;
-		this.count = count;
-	}
+	 
 	
 	 
 

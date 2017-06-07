@@ -37,15 +37,22 @@ public class DisplayCart extends HttpServlet {
 		// TODO Auto-generated method stub
 		HttpSession session = request.getSession();
 		User user = (User)session.getAttribute("user");
-		MakeCart makeCart = new MakeCart(user.getId());
-		session.setAttribute("cart", makeCart);
-		List<CartObject> cartObjects = makeCart.makeCart();
-		session.setAttribute("cart", cartObjects);
-		// I am this
-		System.out.println("Reached here");
-		System.out.print(makeCart);
-		RequestDispatcher dispatch = request.getRequestDispatcher("shop_checkout.jsp");
-		dispatch.forward(request, response);
+		if(user==null){
+			session.setAttribute("returnAdd", "DisplayCart");
+			response.sendRedirect("Login.do");
+		}else{
+		
+		
+			MakeCart makeCart = new MakeCart(user.getId());
+			session.setAttribute("cart", makeCart);
+			List<CartObject> cartObjects = makeCart.makeCart();
+			session.setAttribute("cart", cartObjects);
+			// I am this
+			System.out.println("Reached here");
+			System.out.print(makeCart);
+			RequestDispatcher dispatch = request.getRequestDispatcher("shop_checkout.jsp");
+			dispatch.forward(request, response);
+		}
 	}
 
 	/**

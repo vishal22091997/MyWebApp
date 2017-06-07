@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
@@ -18,17 +19,19 @@ import sethi.vishal.MyWebApp.entity.Type;
 
 public class GetProductWithId {
 	public Product getProduct(String id){
-		Session session = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		Product product = session.get(Product.class, id);
 		session.getTransaction().commit();
 		 
 		session.close();
-	 
+		factory.close();
 		return product;
 	}
 	public List<String> getImageNames(int no){
-		Session session = new Configuration().configure().addAnnotatedClass(Image.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Image.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		List<Image> list =  (List<Image>)session.createQuery("from Image WHERE no="+no).list();
 		session.getTransaction().commit();
@@ -38,10 +41,12 @@ public class GetProductWithId {
 		for(int i=0,j=list.size();i<j;i++){
 			ret.add(list.get(i).getImage());
 		}
+		factory.close();
 		return ret;
 	}
 	public List<String> availColors(int no){
-		Session session = new Configuration().configure().addAnnotatedClass(Colors.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Colors.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		List<Colors> list = (List<Colors>)session.createQuery("from Colors   where no = "+no+" and avail = 1").list();
 		List<String> cols = new ArrayList<String>();
@@ -50,45 +55,56 @@ public class GetProductWithId {
 		}
 		session.getTransaction().commit();
 		session.close();
+		factory.close();
 		return cols;
 	}
 	public String brandName(int bran){
-		Session session = new Configuration().configure().addAnnotatedClass(Brand.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Brand.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		Brand brand = session.get(Brand.class, bran);
 		session.getTransaction().commit();
 		session.close();
+		factory.close();
 		return(brand.getName());
 	}
 	public List<Review> giveProductReview(int no){
-		Session session = new Configuration().configure().addAnnotatedClass(Review.class).buildSessionFactory().getCurrentSession();
+		
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Review.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		List<Review> list = session.createQuery("from Review where no = "+no).list();
 		session.getTransaction().commit();
 		 
 		session.close();
+		factory.close();
 		return(list);
 	}
 	public String getType(int typ){
-		Session session = new Configuration().configure().addAnnotatedClass(Type.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Type.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		Type type = session.get(Type.class, typ);
 		session.getTransaction().commit();
 		 
 		session.close();
+		factory.close();
 		return(type.getType());
 	}
 	public Seller getSeller(int seller){
-		Session session = new Configuration().configure().addAnnotatedClass(Seller.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Seller.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		Seller selle  = session.get(Seller.class, seller);
 		session.getTransaction().commit();
 		 
 		session.close();
+		factory.close();
 		return selle;
 	}
 	public List<RelatedProduct> relatedProducts(int type){
-		Session session = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory().getCurrentSession();
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
 		session.beginTransaction();
 		Query query = session.createQuery("from Product where type = "+type+" order by ratings DESC");
 		query.setFirstResult(0);
@@ -110,7 +126,7 @@ public class GetProductWithId {
 			related.add(relpro);
 		}
 		
-		
+		factory.close();
 		return related;
 	}
 	

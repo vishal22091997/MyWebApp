@@ -50,11 +50,11 @@ public class LoginOrSignup extends HttpServlet {
 		 HttpSession session = request.getSession();
 		 session.setAttribute("user", user);
 		 System.out.println("Reached here");
-		 String returnAdd = (String)session.getAttribute("return");
+		 String returnAdd = (String)session.getAttribute("returnAdd");
 		 if(returnAdd==null){
 			 response.sendRedirect("Index");
 		 }else{
-			 session.setAttribute("return", null);
+			 session.setAttribute("returnAdd", null);
 			 response.sendRedirect(returnAdd);;
 		 }
 		 
