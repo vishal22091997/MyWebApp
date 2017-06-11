@@ -61,7 +61,33 @@
       
       
       <%@include file = "Navigation.jsp" %>
-      
+      <script type="text/javascript">
+	      var xml;
+			if(window.XMLHttpRequest){
+				xml = new XMLHttpRequest();
+				console.log("check");
+			}else if(window.ActiveXObject){
+				xml = new ActiveXObject("MICROSOFT.XMLHttp");
+			}
+			function sendMessageToServer(){
+				
+				console.log(document.getElementById('message').value);
+				xml.open("GET", "ContactMessage?message="+document.getElementById('message').value,true);
+				xml.onreadystatechange = receiveMessageFromServer;
+				xml.send();
+				document.getElementById("message").value = "";
+			}
+			function receiveMessageFromServer(){
+				if(xml.readyState==4&&xml.status==200){
+					document.getElementById('contactFormResponse').innerHTML = "<br><br><h3>Our Representative will contact you in a short while<h3>";
+
+				}
+
+			}
+	
+
+
+      </script>
       
        
       <div class="main">
@@ -93,7 +119,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="text-center">
-                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="button" onclick="sendMessageToServer()">Submit</button>
                   </div>
                 </form>
                 <div class="ajax-response font-alt" id="contactFormResponse"></div>
@@ -192,6 +218,16 @@
     =============================================
     -->
     <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+		function callMe(){
+			<%
+				
+			
+			%>
+
+		}
+    </script>
+    
     <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/lib/wow/dist/wow.js"></script>
     <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>

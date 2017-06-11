@@ -31,15 +31,14 @@ public class ContactMessage extends HttpServlet {
 		// TODO Auto-generated method stub
 		HttpSession session = request.getSession();
 		User user = (User)session.getAttribute("user");
-		if(user.equals(null)){
+		if(user==null){
 			session.setAttribute("returnAdd", "Contact");
 			response.sendRedirect("Login.do");
 		}else{
-			String message = (String)request.getAttribute("message");
-			System.out.println("received");
+			String message =  (String)request.getParameter("message");
+			 
 			AddMessage add = new AddMessage(user, message);
-			add.addMessage();
-			response.sendRedirect("Index");
+			add.addMessage(); 
 		}
 	}
 

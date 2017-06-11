@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import sethi.vishal.MyWebApp.classes.AddReviewToDb;
 import sethi.vishal.MyWebApp.classes.ProductDisplay;
+import sethi.vishal.MyWebApp.entity.User;
 
 /**
  * Servlet implementation class AddReview
@@ -40,21 +41,31 @@ public class AddReview extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		HttpSession session = request.getSession();
-		ProductDisplay product = (ProductDisplay)session.getAttribute("product");
-		System.out.println(product);
-		int no = Integer.parseInt((String)request.getParameter("no"));
+		User user = (User)session.getAttribute("user");
 		String name = request.getParameter("name");
 		String email = request.getParameter("email");
 		int rating = Integer.parseInt(request.getParameter("rating"));
 		String review = request.getParameter("review");
+		int regi = 0;
+		if(user!=null){
+			regi = 1;
+			name = user.getEmail();
+			email = user.getName();
+		}
+		 
+		 
+		ProductDisplay product = (ProductDisplay)session.getAttribute("product");
+		System.out.println(product);
+		int no = Integer.parseInt((String)request.getParameter("no"));
+		
 		System.out.println("Reached in Add Review Class");
 		AddReviewToDb add = new AddReviewToDb();
 		
 		System.out.println(product.getNo());
-		add.addReview(no, name, email, rating, review);
+		add.addReview(no, name, email, rating, review,regi);
 		
-		RequestDispatcher dis = request.getRequestDispatcher("/showSingle?id="+product.getId());
-		dis.forward(request, response);
+		response.sendRedirect("showSingle?id="+product.getId());
+ 
 		
 	}
 

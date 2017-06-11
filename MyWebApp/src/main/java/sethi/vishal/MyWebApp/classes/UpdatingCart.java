@@ -22,7 +22,11 @@ public class UpdatingCart {
 			Session session = factory.getCurrentSession();
 			session.beginTransaction();
 			Cart car = session.get(Cart.class, cart.get(i).getId());
-			car.setCount(values.get(i));
+			if(values.get(i)==0){
+				session.delete(car);
+			}else{
+				car.setCount(values.get(i));
+			}
 			session.getTransaction().commit();
 			session.close();
 			factory.close();

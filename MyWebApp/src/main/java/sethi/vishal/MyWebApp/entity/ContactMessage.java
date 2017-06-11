@@ -60,7 +60,7 @@ public class ContactMessage {
 	}
 	
 	public ContactMessage(int user_id, String message) {
-		super();
+		 
 		this.user_id = user_id;
 		this.message = message;
 	}

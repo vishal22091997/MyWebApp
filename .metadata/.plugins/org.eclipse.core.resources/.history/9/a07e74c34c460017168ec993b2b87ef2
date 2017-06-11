@@ -1,8 +1,0 @@
-package sethi.vishal.MyWebApp.classes;
-
-import sethi.vishal.MyWebApp.entity.Product;
-
-public class DisplayCart extends Product {
-	
-
-}

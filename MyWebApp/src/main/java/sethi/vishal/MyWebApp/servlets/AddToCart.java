@@ -54,7 +54,7 @@ public class AddToCart extends HttpServlet {
 			// add to cart and return back to same page 
 			 AddingToCart cartAdder = new AddingToCart(prodId, count, user);
 			 cartAdder.addToCart();
-			 response.sendRedirect("DisplayCart");
+			  
 			 
 		}
 			
