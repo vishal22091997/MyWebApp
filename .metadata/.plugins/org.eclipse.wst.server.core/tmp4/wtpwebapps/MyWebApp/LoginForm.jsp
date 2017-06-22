@@ -1,108 +1,191 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en-IN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Login</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<meta name="keywords" content="Static Login Form Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<!--script-->
-<script src="js/jquery.min.js"></script>
-<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		    
-<!--script-->
-<!---Google Analytics Designmaz.net-->
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-35751449-15', 'auto');ga('send', 'pageview');</script>
+<meta charset="utf-8">
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+ <script src="https://apis.google.com/js/platform.js" async defer></script>
 
+  
+ <meta name="google-signin-client_id" content="372475238802-hvh00kjrspaj8eo13au4cqf04rbq815k.apps.googleusercontent.com">
+ 
+<title></title>
+<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel='stylesheet'>
+ 
+
+
+
+<style>
+ 
+li,ul,body,input{margin:0; padding:0; list-style:none}
+#login-form{width:350px; background:#FFF; margin:0 auto; margin-top:0px; background:#f8f8f8; overflow:hidden; border-radius:7px}
+.form-header{display:table; clear:both}
+.form-header label{display:block; cursor:pointer; z-index:999}
+.form-header li{margin:0; line-height:60px; width:175px; text-align:center; background:#eee; font-size:18px; float:left; transition:all 600ms ease}
+
+/*sectiop*/
+.section-out{width:700px; float:left; transition:all 600ms ease}
+.section-out:after{content:''; clear:both; display:table}
+.section-out section{width:350px; float:left}
+
+.login{padding:20px}
+.ul-list{clear:both; display:table; width:100%}
+.ul-list:after{content:''; clear:both; display:table}
+.ul-list li{ margin:0 auto; margin-bottom:12px}
+.input{background:#fff; transition:all 800ms; width:247px; border-radius:3px 0 0 3px; font-family: 'Ropa Sans', sans-serif; border:solid 1px #ccc; border-right:none; outline:none; color:#999; height:40px; line-height:40px; display:inline-block; padding-left:10px; font-size:16px}
+.input,.login span.icon{vertical-align:top}
+.login span.icon{width:50px; transition:all 800ms; text-align:center; color:#999; height:40px; border-radius:0 3px 3px 0; background:#e8e8e8; height:40px; line-height:40px; display:inline-block; border:solid 1px #ccc; border-left:none; font-size:16px}
+.input:focus:invalid{border-color:red}
+.input:focus:invalid+.icon{border-color:red}
+.input:focus:valid{border-color:green}
+.input:focus:valid+.icon{border-color:green}
+#check,#check1{top:1px; position:relative}
+.btn23{border:none; 																																																												outline:none; background:#0099CC; border-bottom:solid 4px #006699; font-family: 'Ropa Sans', sans-serif; margin:0 auto; display:block; height:40px; width:100%; padding:0 10px; border-radius:3px; font-size:16px; color:#FFF}
+
+.social-login{padding:15px 20px; background:#f1f1f1; border-top:solid 2px #e8e8e8; text-align:right}
+.social-login a{display:inline-block; height:35px; text-align:center; line-height:35px; width:35px; margin:0 3px; text-decoration:none; color:#FFFFFF}
+.form a i.fa{line-height:35px}
+.fb{background:#305891} .tw{background:#2ca8d2} .gp{background:#ce4d39} .in{background:#006699}
+.remember{width:50%; display:inline-block; clear:both; font-size:14px}
+.remember:nth-child(2){text-align:right}
+.remember a{text-decoration:none; color:#666}
+
+.hide{display:none}
+
+/*swich form*/
+#signup:checked~.section-out{margin-left:-350px}
+#login:checked~.section-out{margin-left:0px}
+#login:checked~div .form-header li:nth-child(1),#signup:checked~div .form-header li:nth-child(2){background:#e8e8e8}
+</style>
 </head>
 <body>
-	<div class="head">
-		<div class="logo">
-			<div class="logo-top">
-				<h1>Responsive Static Login Form HTML5 Template</h1>
-			</div>
-			<div class="logo-bottom">
-				<section class="sky-form">									
-					<label class="radio"><input type="radio" name="radio" checked=""><i></i>Ut mattis mattis bibendum</label>
-					<label class="radio"><input type="radio" name="radio"><i></i>Nullam rutrum sagittis interdum</label>										
-					<label class="radio"><input type="radio" name="radio"><i></i>Nam cursus eros sed elit</label>
-				</section>
-			</div>
-		</div>		
-		<div class="login">
-			<div class="sap_tabs">
-				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-					<ul class="resp-tabs-list">
-						<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Login</span></li>
-						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><label>/</label><span>Sign up</span></li>
-						<div class="clearfix"></div>
-					</ul>				  	 
-					<div class="resp-tabs-container">
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-							<div class="login-top">
-								<form>
-									<input type="text" class="email" placeholder="Email" required=""/>
-									<input type="password" class="password" placeholder="Password" required=""/>		
-								</form>
-								<div class="login-bottom login-bottom1">
-									<div class="submit">
-										<input type="submit" value="LOGIN"/>
-									</div>
-									<ul>
-										<li><p>Or login with</p></li>
-										<li><a href="#"><span class="fb"></span></a></li>
-										<li><a href="#"><span class="twit"></span></a></li>
-										<li><a href="#"><span class="google"></span></a></li>
-									</ul>
-									<div class="clear"></div>
-								</div>	
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-						<div class="login-top">
-								<form>
-									<input type="text" class="name active" placeholder="Your Name" required=""/>
-									<input type="text" class="email" placeholder="Email" required=""/>
-									<input type="password" class="password" placeholder="Password" required=""/>		
-								</form>
-								<div class="login-bottom">
-									<div class="submit">
-										<input type="submit" value="SIGN UP"/>
-									</div>
-									<ul>
-										<li><p>Or login with</p></li>
-										<li><a href="#"><span class="fb"></span></a></li>
-										<li><a href="#"><span class="twit"></span></a></li>
-										<li><a href="#"><span class="google"></span></a></li>
-									</ul>
-									<div class="clear"></div>
-								</div>	
-							</div>
-							
-						</div>							
-					</div>	
-				</div>
-			</div>	
-		</div>	
-		<div class="clear"></div>
-	</div>
+<div id="login-form">
+
+<input type="radio" checked id="login" name="switch" class="hide">
+<input type="radio" id="signup" name="switch" class="hide">
+
+<div>
+<ul class="form-header">
+<li><label for="login"><i class="fa fa-lock"></i> LOGIN<label for="login"></li>
+<li><label for="signup"><i class="fa fa-credit-card"></i> REGISTER</label></li>
+</ul>
+</div>
+
+
+
+
+
+ <script type="text/javascript">
+
+ 			var xml;
+ 			if(window.XMLHttpRequest){
+				xml = new XMLHttpRequest();
+ 			}else if(window.ActiveXObject){
+ 	 			xml = new ActiveXObject("MICROSOFT.XMLHttp");
+
+ 	 		}
+			function onSignIn(googleUser) {
+			  var profile = googleUser.getBasicProfile();
+			  console.log('reached here atleast');
+			   
+			document.getElementById('id').value = profile.getId();
+			document.getElementById('name').value = profile.getName();
+			document.getElementById('email').value = profile.getEmail();
+			document.getElementById('imageurl').value = profile.getImageUrl();
+			console.log('Reached till the end');
+			
 	
-	<script type="text/javascript">
-			    $(document).ready(function () {
-			        $('#horizontalTab').easyResponsiveTabs({
-			            type: 'default', //Types: default, vertical, accordion           
-			            width: 'auto', //auto or any width like 600px
-			            fit: true   // 100% fit in a container
-			        });
+			 var auth2 = gapi.auth2.getAuthInstance();
+			    auth2.signOut().then(function () {
+			      console.log('User signed out.');
 			    });
-				
-</script>
+			     
+				sendMessageToServer(profile,profile.getId(), profile.getName(), profile.getEmail(), profile.getImageUrl());    
+			}
+			function sendMessageToServer(profile, id, name, email, image){
+				 
+				xml.open("POST", 'doWithGmail.do?id='+id+'&name='+profile.getName()+'&email='+profile.getEmail()+'&image='+profile.getImageUrl());
+				xml.onreadystatechange = changeState;
+				xml.send();
+					
+			} 
+			function changeState(){
+				if(xml.readyState==4&&xml.status==200){
+					document.getElementById('login_form').style.display = 'none';
+					jQuery('#navBar').load(' #navBar');	
+					jQuery('#sampleProducts').load(' #sampleProducts');
+					doWhatYouWant();
+				}
+
+			}
+			 
+			 
+			 
+	       </script>	
+        	 	
+        
+         
+			<form name="temp_form" method="POST" id = 'temp_form' action = "doWithGmail.do">
+			  <input type="hidden" name="id" id="id" />
+			  <input type="hidden" name="name" id="name" />
+			  <input type="hidden" name="email" id="email" />
+			  <input type="hidden" name="imageurl" id="imageurl" />
+			  <input type="button" name="Submit" onclick="submit()" />
+			</form>
+        
+        
+
+
+
+
+
+
+
+
+<div class="section-out">
+<section class="login-section">
+<div class="login">
+<form action="">
+<ul class="ul-list">
+<li><input type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
+<li><input type="password" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
+<li><span class="remember"><input type="checkbox" id="check"> <label for="check">Remember Me</label></span><span class="remember"><a href="">Forget Password</a></span></li>
+<li><input type="submit" value="SIGN IN" class="btn23"></li>
+</ul>
+</form>
+</div>
+
+<div class="social-login">Or sign in with &nbsp;
+<a href="" class="fb"><i class="fa fa-facebook"></i></a>
+<a href="" class="tw"><i class="fa fa-twitter"></i></a>
+<a href="" class="gp"><i class="fa fa-google-plus"></i></a>
+<div class="g-signin2" data-onsuccess="onSignIn"  >
+<a href="" class="in"><i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+
+<section class="signup-section">
+<div class="login">
+<form action="">
+<ul class="ul-list">
+<li><input type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
+<li><input type="password" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
+<li><input type="checkbox" id="check1"> <label for="check1">I accept terms and conditions</label></li>
+<li><input type="submit" value="SIGN UP" class="btn23"></li>
+</ul>
+</form>
+</div>
+
+<div class="social-login">Or sign up with &nbsp;
+<a href="" class="fb"><i class="fa fa-facebook"></i></a>
+<a href="" class="tw"><i class="fa fa-twitter"></i></a>
+<a href="" class="gp"><i class="fa fa-google-plus"></i></a>
+<a href="" class="in"><i class="fa fa-linkedin"></i></a>
+</div>
+</section>
+</div>
+
+</div>
+
 </body>
 </html>

@@ -1,0 +1,8 @@
+/**
+ * 
+ */
+
+function fetchResults(){
+	var data = document.getElementById('searchBox');
+	console.log(data);
+}

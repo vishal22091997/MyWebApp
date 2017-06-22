@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<div id = "mydiv">
+	
+	
+	</div>
+	<script type="text/javascript">
+	var ele = document.createElement("a");
+	ele.href = "www.facebook.com";
+	ele.innerHTML = "Click Me!!";
+	if(ele==null){
+		console.log('called');
+		}
+	var div = document.getElementById('mydiv')
+	div.appendChild(ele);
+	
+
+</script>
+
+</body>
+</html>

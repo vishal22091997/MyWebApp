@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+var xml = new XMLHttpRequest();
+
+function fetchResults(){
+	var data = document.getElementById('searchBox');
+	console.log(data.value);
+	xml.open("GET", )
+}

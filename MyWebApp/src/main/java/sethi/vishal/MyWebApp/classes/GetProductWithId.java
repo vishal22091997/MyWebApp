@@ -114,7 +114,7 @@ public class GetProductWithId {
 
 		session.getTransaction().commit();
 		session.close();
-		
+		System.out.println("Reached here");
 		
 		System.out.println(list);
 		List<RelatedProduct> related = new ArrayList<RelatedProduct>();

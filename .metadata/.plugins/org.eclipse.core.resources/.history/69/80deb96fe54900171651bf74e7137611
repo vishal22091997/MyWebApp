@@ -1,8 +1,0 @@
-
-public class NEO01 {
-	public static void main(String hdk[]){
-		Scanner scan = new Scanner(System.in);
-		
-	}
-
-}

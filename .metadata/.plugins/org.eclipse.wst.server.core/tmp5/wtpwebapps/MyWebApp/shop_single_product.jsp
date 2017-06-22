@@ -69,46 +69,54 @@
 
     
 	      var xml;
+	      var text;
 			if(window.XMLHttpRequest){
 				xml = new XMLHttpRequest();
 				console.log("check");
 			}else if(window.ActiveXObject){
 				xml = new ActiveXObject("MICROSOFT.XMLHttp");
 			}
-			function sendMessageToServer(){
-				
-				console.log(document.getElementById('count').value+" "+document.getElementById('prod_id'));
-				xml.open("POST", "AddToCart?count="+document.getElementById('count').value+"&prodid="+document.getElementById('prod_id').value,true);
-				xml.onreadystatechange = receiveMessageFromServer;
+			function sendMessageToCartServer(id, name){
+				text = name;
+				xml.open("POST", "AddToCart?count=1&prodid="+id,true);
+				xml.onreadystatechange = receiveMessageFromCartServer;
 				xml.send();
 				
 			}
-			function receiveMessageFromServer(){
+			function receiveMessageFromCartServer(){
 				if(xml.readyState==4&&xml.status==200){
-					myFunction();
+					var modal = document.getElementById('AddedToCart');
+					document.getElementById('item_header').innerHTML = text+", has been added to your cart";
+					modal.style.display = 'block';
+					window.onclick = function(event) {
+					    if (event.target == modal) {
+					        modal.style.display = "none";
+					    }
+					}
+					var span = document.getElementById("spanAddedToCart");
+					span.onclick = function(event){
+						console.log('entered');
+						if(event.target==span){
+							console.log('targated');
+							modal.style.display = 'none';
+						}
+					} 
+					
 				}
 
 			}
-	
+			function doWhatYouWant(){
+				jQuery('#divForCart').load(' #divForCart');
+
+			}
 
 			 
 			// When the user clicks on div, open the popup
-			function myFunction() {
-			    var popup = document.getElementById("myPopup");
-			    popup.classList.toggle("show");
-			    window.setTimeout(changeShow , 2000);
-			}
-			function changeShow(){
-				var popup = document.getElementById("myPopup"); 
-
-				popup.classList.toggle("show");
-				popup.classList.toggle("unshow");
-			}
+			 
 			 
 			function openLogin(){
 				var modal = document.getElementById('login_form');
 				modal.style.display = "block";
-				 
 				 
 				 
 				window.onclick = function(event) {
@@ -129,6 +137,57 @@
  	 
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  
+  
+  
+  <div id="AddedToCart" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id=spanAddedToCart class="close">&times;</span>
+      <h2>Item Added To Cart</h2>
+    </div>
+    <div class="modal-body">
+      <h3 id="item_header"></h3>
+      <p id ="item_desc"></p>
+    </div>
+    <div class="modal-footer">
+       <div class="herelog"><a href = "DisplayCart"><button onclick="Login.do; return false;" class="btn btn-border-w btn-circle" type=submit>Check Your Cart</button></a></div>
+    	
+    
+    
+    </div>
+  </div>
+
+</div> 
+
+
+      
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Login Required </h2>
+    </div>
+    <div class="modal-body">
+      <h3>You have to login to add it to your cart</h3>
+      
+    </div>
+    <div class="modal-footer">
+       <div class="herelog"><a href = "#"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Login</button></a></div>
+    	<div class="herereg"><a href="Login.do"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Register</button></a></div>
+    
+    
+    </div>
+  </div>
+
+</div>
+      
+
     <main>
       <div class="page-loader">
         <div class="loader">Loading...</div>
@@ -181,7 +240,22 @@
 
 </div> 
       
+      <%User userChecking = (User)session.getAttribute("user");
+     	 boolean askToLog;
+    	if(userChecking!=null){
+    		askToLog = false; 
+    	}else{
+    		askToLog = true;
+    	}
+    	String methodCall;
+  		if(askToLog){
+  			methodCall = "openLogin()";
+  		}else{
+  			methodCall = "sendMessageToCartServer('"+product.getId()+"','"+product.getName()+"')";
+  		}
+  		
       
+      %>
       <div class="main">
         <section class="module">
           <div class="container">
@@ -234,13 +308,14 @@
                    	</form>
                   </div>
                   	
-                  <div class="col-sm-8"><button onclick="sendMessageToServer()" class="btn btn-lg btn-block btn-round btn-b" >Add To Cart</button></div>
+                  <div id = "divForCart">	
+                  	
+                  	
+                  <div class="col-sm-8"><button onclick="<%= methodCall %>; return false;" class="btn btn-lg btn-block btn-round btn-b" >Add To Cart</button></div>
                 </div>
                 <!-- Just to check for the popup  -->
                 
-                <div class="popup"  > 
-  					<span class="popuptext" id="myPopup">Item Added to Cart</span>
-				</div>
+                 </div>
                 
                  
                 <div class="row mb-20">
@@ -296,7 +371,7 @@
                     
                     <%
                     String disable = "";
-        			User userChecking = (User)session.getAttribute("user");
+        			
         			String nameOfUser = null;
         			String emailOfUser = null;
                     if(userChecking!=null){

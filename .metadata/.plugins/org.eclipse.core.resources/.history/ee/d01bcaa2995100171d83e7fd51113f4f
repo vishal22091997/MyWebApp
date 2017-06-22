@@ -1,0 +1,23 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class HackerrankDay4 {
+	public static void main(String hd[]) throws IOException{
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer token = new StringTokenizer(reader.readLine());
+		int row = Integer.parseInt(token.nextToken());
+		int col = Integer.parseInt(token.nextToken(reader.readLine()));
+		int a[][] = new int[row][col];
+		for(int i=0;i<row;i++){
+			token = new StringTokenizer(reader.readLine());
+			for(int j=0;i<col;j++){
+				a[i][j] = Integer.parseInt(token.nextToken());
+				System.out.print(a[i][j]+" ");
+			}
+		}
+	}
+
+}

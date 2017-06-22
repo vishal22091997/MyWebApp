@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+var xml = new XMLHttpRequest();
+
+function fetchResults(){
+	var data = document.getElementById('searchBox');
+	console.log(data.value);
+	xml.open("GET", "SearchProducts?text="+data.value);
+	xml.onload = function(){
+		console.log("reached");
+		if(xml.onreadystatechange==4&&xml.status==200){
+			var query = JSON.parse(xml.responseText);
+			console.log(query);
+		}
+	}
+}

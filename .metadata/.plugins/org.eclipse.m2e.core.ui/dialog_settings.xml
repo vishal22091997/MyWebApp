@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\vishal\Documents\GitHub"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -56,12 +57,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="sethi.vishal.servlets"/>
 			<item value="sethi.vishal.MyWebApp"/>
 		</list>
 		<list key="groupId">
 			<item value="sethi.vishal"/>
 		</list>
 		<list key="artifactId">
+			<item value="servlets"/>
 			<item value="MyWebApp"/>
 		</list>
 		<list key="projectNameTemplate">

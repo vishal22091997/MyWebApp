@@ -58,18 +58,147 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    
+    
+    
+    
+    <style rel="stylesheet">
+    	
+    	#searchInput{
+    		border-radius: 25px;
+		    float:right; 
+		      
+		     
+    	}
+    	.Mydropbtn {
+		    background-color: white;
+		    color: white;
+		    padding: 8px;
+		    font-size: 16px;
+		    border: none;
+		    cursor: pointer;
+		    margin-bottom: 5px;
+		}
+
+.Mydropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.Mydropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top:55px;
+    margin-left:10px;
+    border-radius:10px;
+}
+
+.Mydropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius:10px;
+    
+}
+
+.Mydropdown-content a:hover {background-color: #f1f1f1}
+
+.Mydropdown:hover .Mydropdown-content {
+	margin-left:10px;
+    border-radius:10px;
+    display: block;
+}
+
+.Mydropdown:hover .Mydropbtn {
+    background-color: white;
+}
+    
+    
+    </style>
+    
+    
+    <script type="text/javascript">
+	var xml;
+	if(window.XMLHttpRequest){
+		xml = new XMLHttpRequest();
+		console.log('got');
+	}else if(window.ActiveXObject){
+		xml = new ActiveXObject("MICROSOFT.XMLHttp");
+	}
+	function showList(){
+		var text = document.getElementById('searchInput').value;
+		console.log(text);
+		xml.open("POST", 'SearchProducts?text='+text, true);
+		xml.onreadystatechange = displayList;
+		xml.send();		
+	}
+	function displayList(){
+		if(xml.readyState==4&&xml.status==200){
+			console.log('got state');
+			var drop = document.getElementById("searchDropDown");
+			console.log('got drop down');
+			<% 
+				List<Product> searchBoxProducts = (List<Product>)session.getAttribute("searchBoxProducts");
+				for(Product product:searchBoxProducts){
+			%>
+				var a = document.createElement("a");
+				a.href = "showSingle?id=<%= product.getId()%>";
+				a.innerHTML = '<%=product.getName() %>';
+				drop.appendChild(a);
+
+
+
+			<%} %>
+			
+		}
+	}
+
+	function openDropDown(){
+		var drop = document.getElementById('Mydropdown');
+		var content = document.getElementById('Mydropdown-content');
+		drop.style.display = 'block';
+		content.style.display = 'block';
+	}
+	function closeDropDown(){
+		var drop =  document.getElementById('Mydropdown');
+		var content = document.getElementById('Mydropdown-content');
+		drop.style.display = 'none';
+		content.style.display = 'none';
+	}
+
+    </script>
+    
+    
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
-      
-      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+       
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" id="navBar">
         <div class="container">
           <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="Index">MobiWorld</a>
+          	 <div  class="Mydropdown" onfocus="openDropDown()" onblur="closeDropDown()">
+          	 <input class="Mydropbtn" id="searchInput" onfocus="showList()" value="charger"   oninput="showList()" style="float:right;margin-top: 5%;color:black" class="navbar-header" type="text" placeholder="Press Enter to search">
+          	 <div id="searchDropDown" class="Mydropdown-content">
+          	 	  
+          	 	
+				 
+			  </div>
+          	 </div>
+          	 
           </div>
+          <div>
+          	
+          </div>
+          
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Chargers</a>
+              <li  class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Chargers</a>
  					<!-- Here Number of Dropdowns are removed -->
               </li>
               <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Earphones</a>
@@ -154,20 +283,27 @@
               	}else{
               		titles.add(0, "SignIn");
               		titles.add(1, "Register");
-              		hrefs.add(0, "Login.do");
-              		hrefs.add(1, "Login.do");
+              		hrefs.add(0, "#");
+              		hrefs.add(1, "#");
+              		
               		log = "Hello, "+"Sign in";
               	}
               
               	int len = titles.size();
               %>
               
-              <li class="dropdown"><a class="dropdown-toggle" href="Login.do" data-toggle="dropdown"><%=log %></a>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><%=log %></a>
                    <ul class="dropdown-menu">
+                   
+                   
+                   
                   <% for(int i=0;i<len;i++){ %>
-                  
-                  <li><a href="<%= hrefs.get(i)%>"><%=titles.get(i) %></a></li>
-                  
+                  <% if(len==2) { %>
+                  		<li><a href="<%= hrefs.get(i)%>" onclick="openLogin();return false;"><%=titles.get(i) %></a></li>
+                  <%}  %>
+			        <%if(len==5) {%>
+		            <li><a href="<%= hrefs.get(i)%>"><%=titles.get(i) %></a></li>
+	                <% } %>
                   <%} %>
                   </ul>
                   

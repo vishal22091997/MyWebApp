@@ -1,62 +1,65 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.StringTokenizer;
  
  class Triplets {
-	public static void main(String djd[]){
-		Scanner scan = new Scanner(System.in);
-		int t = scan.nextInt();
+	public static void main(String djd[]) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer ttoken = new StringTokenizer(br.readLine());
+		int t = Integer.parseInt(ttoken.nextToken());
+		
 		while(t-->0){
-			int p = scan.nextInt(), q = scan.nextInt(), r = scan.nextInt();
+			StringTokenizer token = new StringTokenizer(br.readLine());
+			int p = Integer.parseInt(token.nextToken());
+			int q = Integer.parseInt(token.nextToken());
+			int r = Integer.parseInt(token.nextToken());
+			 
 			int a[] = new int[p];
 			int b[] = new int[q];
 			int c[] = new int[r];
+			StringTokenizer aString = new StringTokenizer(br.readLine());
 			for(int i=0;i<p;i++){
-				a[i] = scan.nextInt();
+				a[i] = Integer.parseInt(aString.nextToken());
 			}
 			 Arrays.sort(a);
+			  aString = new StringTokenizer(br.readLine());
 			for(int j=0;j<q;j++){
-				b[j] = scan.nextInt();
+				b[j] = Integer.parseInt(aString.nextToken());
 			}
 			 Arrays.sort(b);
+			 aString = new StringTokenizer(br.readLine());
 			for(int k=0;k<r;k++){
-				c[k] = scan.nextInt();
+				c[k] = Integer.parseInt(aString.nextToken());
 			}
 			Arrays.sort(c);
 			 
 			long ans = 0;
-			List<Integer> xySum = new ArrayList<Integer>();
-			List<Integer> yzSum = new ArrayList<Integer>();
-			for(int i=0;i<p;i++){
-				for(int j=q-1;j>=0;j--){
-					if(a[i]<=b[j]){
-						xySum.add(a[i]+b[j]);
-					}else{
-						break;
+			for(int i =q-1;i>=0;i--){
+				if(b[i]>=a[0]){
+					for(int j=0;j<p;j++){
+						if(b[i]>=a[j]){
+							for(int k=0;k<r;k++){
+								if(c[k]<=b[i]){
+									ans += (long)(b[i]+a[j])*(long)(b[i]+c[k]);
+									ans = ans%1000000007 ;
+									
+								}else{
+									break;
+								}
+							}
+						}else{
+							break;
+						}
 					}
+				}else{
+					break;
 				}
 			}
-			 
-			for(int j=0;j<q;j++){
-				for(int k=0;k<r;k++){
-					if(c[k]<=b[j]){
-						yzSum.add(b[j]+c[k]);
-					}else{
-						break;
-					}
-				}
-			}
-			 
-			int size1 = xySum.size();
-			int size2 = yzSum.size();
-			for(int i=0;i<size1;i++){
-				for(int j=0;j<size2;j++){
-					ans+=(long)xySum.get(i)*(long)yzSum.get(j);
-					ans = ans%1000000007;
-				}
-			}
-			
 			
 			
 			

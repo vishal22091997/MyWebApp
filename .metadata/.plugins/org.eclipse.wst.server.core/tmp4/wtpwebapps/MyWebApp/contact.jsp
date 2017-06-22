@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<%@page import="java.util.ArrayList"%>
+<%@page import="sethi.vishal.MyWebApp.entity.User"%>
+<%@page import="java.util.Iterator"%>
+<%@page import="sethi.vishal.MyWebApp.entity.Product"%>
+<%@page import="java.util.List, sethi.vishal.MyWebApp.entity.*"%>
+<%@page import="java.util.List, sethi.vishal.MyWebApp.classes.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <html lang="en-US" dir="ltr">
   <head>
     <meta charset="utf-8">

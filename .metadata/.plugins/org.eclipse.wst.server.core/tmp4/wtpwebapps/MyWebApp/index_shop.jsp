@@ -60,83 +60,9 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
-  	<style>
-	/* The Modal (background) */
-	.modal {
-	    display: none; /* Hidden by default */
-	    position: fixed; /* Stay in place */
-	    z-index: 1; /* Sit on top */
-	    padding-top: 100px; /* Location of the box */
-	    left: 0;
-	    top: 0;
-	    width: 100%; /* Full width */
-	    height: 100%; /* Full height */
-	    overflow: auto; /* Enable scroll if needed */
-	    background-color: rgb(0,0,0); /* Fallback color */
-	    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-	}
-	
-	/* Modal Content */
-	.modal-content {
-	    position: relative;
-	    background-color: #fefefe;
-	    margin: auto;
-	    padding: 0;
-	    border: 1px solid #888;
-	    width: 80%;
-	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-	    -webkit-animation-name: animatetop;
-	    -webkit-animation-duration: 0.4s;
-	    animation-name: animatetop;
-	    animation-duration: 0.4s
-	}
-	
-	/* Add Animation */
-	@-webkit-keyframes animatetop {
-	    from {top:-300px; opacity:0} 
-	    to {top:0; opacity:1}
-	}
-	
-	@keyframes animatetop {
-	    from {top:-300px; opacity:0}
-	    to {top:0; opacity:1}
-	}
-	
-	/* The Close Button */
-	.close {
-	    color: white;
-	    float: right;
-	    font-size: 28px;
-	    font-weight: bold;
-	}
-	
-	.close:hover,
-	.close:focus {
-	    color: #000;
-	    text-decoration: none;
-	    cursor: pointer;
-	}
-	
-	.modal-header {
-	    padding: 2px 16px;
-	    background-color: #000;
-	    color: white;
-	}
-	
-	.modal-body {padding: 2px 16px;}
-	
-	.modal-footer {
-	    padding: 2px 16px;
-	    background-color: #000;
-	    color: white;
-	    
-	}
-	.herelog{
-		width: 20%;
-		float: left;
-	}
-	
-</style>
+  	 <link href="assets/css/model.css" rel="stylesheet">
+  	
+  	
   	<script type="text/javascript">
 	      var xml;
 	      var text;
@@ -146,14 +72,14 @@
 			}else if(window.ActiveXObject){
 				xml = new ActiveXObject("MICROSOFT.XMLHttp");
 			}
-			function sendMessageToServer(id, name){
+			function sendMessageToCartServer(id, name){
 				text = name;
 				xml.open("POST", "AddToCart?count=1&prodid="+id,true);
-				xml.onreadystatechange = receiveMessageFromServer;
+				xml.onreadystatechange = receiveMessageFromCartServer;
 				xml.send();
 				
 			}
-			function receiveMessageFromServer(){
+			function receiveMessageFromCartServer(){
 				if(xml.readyState==4&&xml.status==200){
 					myFunction();
 				}
@@ -179,9 +105,14 @@
 			}
 			 
 			function openToLog(){
-				var modal = document.getElementById('myModal');
+				openLogin();
+				
+			}
+			function openLogin(){
+				var modal = document.getElementById('login_form');
 				modal.style.display = "block";
 				var span = document.getElementsByClassName("close")[0];
+				 
 				span.onclick = function() {
 				    modal.style.display = "none";
 				}
@@ -190,8 +121,9 @@
 				        modal.style.display = "none";
 				    }
 				}
-			}
-			 
+
+
+			} 
 							
 
 			
@@ -207,8 +139,8 @@
         <div class="loader">Loading...</div>
       </div>
     
-    <%@include file = "Navigation.jsp" %>
-     <%@include file= "LoginForm.jsp" %>
+    <div id = "classNav"><%@include file = "Navigation.jsp" %></div>
+     
      
       
       <!-- The Modal -->
@@ -217,7 +149,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span id = "spanOpenToLog">&times;</span>
       <h2>Login Required </h2>
     </div>
     <div class="modal-body">
@@ -225,14 +157,24 @@
       
     </div>
     <div class="modal-footer">
-       <div class="herelog"><a href = "Login.do"><button onclick="Login.do; return false;" class="btn btn-border-w btn-circle" type=submit>Login</button></a></div>
-    	<div class="herereg"><a href="Login.do"><button onclick="Login.do; return false;" class="btn btn-border-w btn-circle" type=submit>Register</button></a></div>
+       <div class="herelog"><a href = "#"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Login</button></a></div>
+    	<div class="herereg"><a href="Login.do"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Register</button></a></div>
     
     
     </div>
   </div>
 
 </div>
+      
+      
+  <div id="login_form" class="modal">
+	<div class = "modal-content" style="width: 352px;height: 377px">
+   
+   
+  <%@include file = "LoginForm.jsp" %>
+	</div>
+</div>    
+      
       
       
       
@@ -307,7 +249,7 @@
                
                
                
-            <div class="row multi-columns-row">
+            <div class="row multi-columns-row" id = "sampleProducts">
               <% List<Product> list = (List<Product>)request.getAttribute("MainList"); 
               	Iterator<Product> itr = list.iterator();
               	User userCheck = (User)session.getAttribute("user");
@@ -325,7 +267,7 @@
               		if(askToLog){
               			methodCall = "openToLog()";
               		}else{
-              			methodCall = "sendMessageToServer('"+product.getId()+"','"+product.getName()+"')";
+              			methodCall = "sendMessageToCartServer('"+product.getId()+"','"+product.getName()+"')";
               		}
               		
               		String href = "showSingle?id="+product.getId();

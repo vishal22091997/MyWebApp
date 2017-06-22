@@ -105,17 +105,8 @@
 			}
 			 
 			function openToLog(){
-				var modal = document.getElementById('myModal');
-				modal.style.display = "block";
-				var span = document.getElementsByClassName("close")[0];
-				span.onclick = function() {
-				    modal.style.display = "none";
-				}
-				window.onclick = function(event) {
-				    if (event.target == modal) {
-				        modal.style.display = "none";
-				    }
-				}
+				openLogin();
+				
 			}
 			function openLogin(){
 				var modal = document.getElementById('login_form');
@@ -158,7 +149,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">&times;</span>
+      <span id = "spanOpenToLog">&times;</span>
       <h2>Login Required </h2>
     </div>
     <div class="modal-body">

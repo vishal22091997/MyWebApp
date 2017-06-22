@@ -1,0 +1,8 @@
+
+public class CuttingString {
+	public static void main(String hsj[]){
+		Scanner scan = new Scanner(System.in);
+		
+	}
+
+}

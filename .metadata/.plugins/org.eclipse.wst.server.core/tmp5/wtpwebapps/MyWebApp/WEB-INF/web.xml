@@ -82,6 +82,10 @@
     	<servlet-name>ContactMessage</servlet-name>
     	<url-pattern>/ContactMessage</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SearchProducts</servlet-name>
+    	<url-pattern>/SearchProducts</url-pattern>
+    </servlet-mapping>
      
     
     
@@ -161,6 +165,13 @@
     	<display-name>ContactMessage</display-name>
     	<servlet-name>ContactMessage</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.ContactMessage</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SearchProducts</display-name>
+    	<servlet-name>SearchProducts</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SearchProducts</servlet-class>
     </servlet>
     
     

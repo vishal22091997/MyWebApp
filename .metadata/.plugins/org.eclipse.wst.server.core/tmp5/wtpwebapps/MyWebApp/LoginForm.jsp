@@ -6,7 +6,7 @@
  <script src="https://apis.google.com/js/platform.js" async defer></script>
 
   
- <meta name="google-signin-client_id" content="372475238802-hvh00kjrspaj8eo13au4cqf04rbq815k.apps.googleusercontent.com">
+ <meta name="google-signin-client_id" content="229306623946-p03t1aro8bce7611n19v5nu3vc8fosib.apps.googleusercontent.com">
  
 <title></title>
 <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet'>
@@ -112,8 +112,9 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 			function changeState(){
 				if(xml.readyState==4&&xml.status==200){
 					document.getElementById('login_form').style.display = 'none';
-					jQuery('#classNav').load(' #classNav');	
+					jQuery('#navBar').load(' #navBar');	
 					jQuery('#sampleProducts').load(' #sampleProducts');
+					doWhatYouWant();
 				}
 
 			}

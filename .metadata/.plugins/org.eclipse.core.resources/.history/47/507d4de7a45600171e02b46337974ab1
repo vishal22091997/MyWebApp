@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class CuttingString {
+	public static void main(String hsj[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			
+		}
+	}
+
+}
