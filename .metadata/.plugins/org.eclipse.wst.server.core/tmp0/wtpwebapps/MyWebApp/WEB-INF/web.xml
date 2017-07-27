@@ -70,6 +70,38 @@
     	<servlet-name>RemoveFromCart</servlet-name>
     	<url-pattern>/RemoveFromCart</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UpdateCart</servlet-name>
+    	<url-pattern>/UpdateCart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>Contact</servlet-name>
+    	<url-pattern>/Contact</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>ContactMessage</servlet-name>
+    	<url-pattern>/ContactMessage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SearchProducts</servlet-name>
+    	<url-pattern>/SearchProducts</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>ShowProducts</servlet-name>
+    	<url-pattern>/ShowProducts</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>Profile</servlet-name>
+    	<url-pattern>/Profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>InsertAddress</servlet-name>
+    	<url-pattern>/InsertAddress</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>RemoveAddress</servlet-name>
+    	<url-pattern>/RemoveAddress</url-pattern>
+    </servlet-mapping>
      
     
     
@@ -128,6 +160,62 @@
     	<display-name>RemoveFromCart</display-name>
     	<servlet-name>RemoveFromCart</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.RemoveFromCart</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>UpdateCart</display-name>
+    	<servlet-name>UpdateCart</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.UpdateCart</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Contact</display-name>
+    	<servlet-name>Contact</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.Contact</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ContactMessage</display-name>
+    	<servlet-name>ContactMessage</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.ContactMessage</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SearchProducts</display-name>
+    	<servlet-name>SearchProducts</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SearchProducts</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ShowProducts</display-name>
+    	<servlet-name>ShowProducts</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.ShowProducts</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Profile</display-name>
+    	<servlet-name>Profile</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.Profile</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>InsertAddress</display-name>
+    	<servlet-name>InsertAddress</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.InsertAddress</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>RemoveAddress</display-name>
+    	<servlet-name>RemoveAddress</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.RemoveAddress</servlet-class>
     </servlet>
     
     

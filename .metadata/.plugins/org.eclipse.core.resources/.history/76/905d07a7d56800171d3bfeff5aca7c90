@@ -1,0 +1,11 @@
+package Programs;
+
+import java.util.*;
+
+public class MetaStrings {
+	public static void main(String jf[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt()
+	}
+
+}

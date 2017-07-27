@@ -58,6 +58,16 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -121,10 +131,16 @@
                       <th>Remove</th>
                     </tr>
                     
+                    
+                    
+                    <form method = "post" id = "cartform"  action = "UpdateCart">
+                    
                     <% 
                     long price = 0;
                     long shipping = 0;
+                    int i = 0;
                     for(CartObject obj:cart) { 
+                    	i++;
                     	Product product = obj.getProduct();
                     	price += product.getPrice()*obj.getCount();
                     %>
@@ -138,7 +154,7 @@
                         <h5 class="product-title font-alt"><%=product.getPrice() %></h5>
                       </td>
                       <td>
-                        <input class="form-control" type="number" name="" value="<%=obj.getCount() %>" max="50" min="1"/>
+                        <input class="form-control" type="number" name="count<%=i%>" value="<%=obj.getCount() %>" max="50" min="1"/>
                       </td>
                       <td>
                         <h5 class="product-title font-alt"><%= product.getPrice()*obj.getCount() %></h5>
@@ -149,6 +165,9 @@
                     
                     
                     <% } %>
+                    
+                  
+                    </form>
                     
                     
                     
@@ -172,7 +191,7 @@
               </div>
               <div class="col-sm-3 col-sm-offset-3">
                 <div class="form-group">
-                  <button class="btn btn-block btn-round btn-d pull-right" type="submit">Update Cart</button>
+                  <button class="btn btn-block btn-round btn-d pull-right" type="submit" onclick="getTheformData('cartform')">Update Cart</button>
                 </div>
               </div>
             </div>
@@ -209,7 +228,7 @@
           </div>
         </section>
         
-        
+          			 
         
         
         <div class="module-small bg-dark">
@@ -293,6 +312,12 @@
     =============================================
     -->
     <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script type = "text/javascript">
+						function getTheformData(name){
+							document.getElementById(name).submit();
+						}
+	
+                    </script>
     <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/lib/wow/dist/wow.js"></script>
     <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>

@@ -1,0 +1,14 @@
+package sethi.vishal.MyWebApp.classes;
+
+import sethi.vishal.MyWebApp.entity.Address;
+ 
+import java.util.*;
+public class GetProfileData {
+
+	public List<Address> getListOfAddresses(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

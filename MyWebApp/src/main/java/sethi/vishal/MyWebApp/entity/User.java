@@ -32,6 +32,8 @@ public class User {
 	@Column(name = "name")
 	private String name;
 	
+	@Column(name = "PASSWORD")
+	private String password;
 	public User(){
 		
 	}
@@ -44,6 +46,14 @@ public class User {
 		this.name = name;
 	}
 	
+	public User(String email, String joinDate, String name, String password) {
+		super();
+		this.email = email;
+		this.joinDate = joinDate;
+		this.name = name;
+		this.password = password;
+	}
+
 	public User(String gmailid, String email, String imageurl, String joinDate, String name) {
 		 
 		this.gmailid = gmailid;
@@ -95,6 +105,24 @@ public class User {
 	}
 
 	 
+
+	public User(String gmailid, String email, String imageurl, String joinDate, String name, String password) {
+		super();
+		this.gmailid = gmailid;
+		this.email = email;
+		this.imageurl = imageurl;
+		this.joinDate = joinDate;
+		this.name = name;
+		this.password = password;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
 	@Override
 	public String toString() {

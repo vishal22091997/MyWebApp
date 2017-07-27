@@ -55,9 +55,83 @@
     <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
     <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  	 <link href="assets/css/model.css" rel="stylesheet">
+  	
+  	
+  	<script type="text/javascript">
+	      var xml;
+	      var text;
+			if(window.XMLHttpRequest){
+				xml = new XMLHttpRequest();
+				console.log("check");
+			}else if(window.ActiveXObject){
+				xml = new ActiveXObject("MICROSOFT.XMLHttp");
+			}
+			function sendMessageToCartServer(id, name){
+				text = name;
+				xml.open("POST", "AddToCart?count=1&prodid="+id,true);
+				xml.onreadystatechange = receiveMessageFromCartServer;
+				xml.send();
+				
+			}
+			function receiveMessageFromCartServer(){
+				if(xml.readyState==4&&xml.status==200){
+					myFunction();
+				}
+
+			}
+	
+
+			 
+			// When the user clicks on div, open the popup
+			function myFunction() {
+				var modal = document.getElementById('cartmodel');
+				modal.style.display = "block";
+				var span = document.getElementsByClassName("close")[0];
+				document.getElementById('item_header').innerHTML = text+", Added to your cart";
+				span.onclick = function() {
+				    modal.style.display = "none";
+				}
+				window.onclick = function(event) {
+				    if (event.target == modal) {
+				        modal.style.display = "none";
+				    }
+				}
+			}
+			 
+			function openToLog(){
+				openLogin();
+				
+			}
+			function openLogin(){
+				var modal = document.getElementById('login_form');
+				modal.style.display = "block";
+				var span = document.getElementsByClassName("close")[0];
+				 
+				span.onclick = function() {
+				    modal.style.display = "none";
+				}
+				window.onclick = function(event) {
+				    if (event.target == modal) {
+				        modal.style.display = "none";
+				    }
+				}
+
+
+			} 
+							
+
+			
+
+      </script>
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -65,7 +139,74 @@
         <div class="loader">Loading...</div>
       </div>
     
-    <%@include file = "Navigation.jsp" %>
+    <div id = "classNav"><%@include file = "Navigation.jsp" %></div>
+     
+     
+      
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id = "spanOpenToLog">&times;</span>
+      <h2>Login Required </h2>
+    </div>
+    <div class="modal-body">
+      <h3>You have to login to add it to your cart</h3>
+      
+    </div>
+    <div class="modal-footer">
+       <div class="herelog"><a href = "#"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Login</button></a></div>
+    	<div class="herereg"><a href="Login.do"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Register</button></a></div>
+    
+    
+    </div>
+  </div>
+
+</div>
+      
+      
+  <div id="login_form" class="modal">
+	<div class = "modal-content" style="width: 352px;height: 377px">
+   
+   
+  <%@include file = "LoginForm.jsp" %>
+	</div>
+</div>    
+      
+      
+      
+      
+     <div id="cartmodel" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Item Added To Cart</h2>
+    </div>
+    <div class="modal-body">
+      <h3 id="item_header"></h3>
+      <p id ="item_desc"></p>
+    </div>
+    <div class="modal-footer">
+       <div class="herelog"><a href = "DisplayCart"><button onclick="Login.do; return false;" class="btn btn-border-w btn-circle" type=submit>Check Your Cart</button></a></div>
+    	
+    
+    
+    </div>
+  </div>
+
+</div> 
+      
+      
+      
+      
+      
+      
+      
+      
       
       
       
@@ -108,13 +249,27 @@
                
                
                
-            <div class="row multi-columns-row">
+            <div class="row multi-columns-row" id = "sampleProducts">
               <% List<Product> list = (List<Product>)request.getAttribute("MainList"); 
               	Iterator<Product> itr = list.iterator();
+              	User userCheck = (User)session.getAttribute("user");
               	
+              	boolean askToLog;
+              	if(userCheck!=null){
+              		askToLog = false; 
+              	}else{
+              		askToLog = true;
+              	}
               	while(itr.hasNext())
-              	{  
+              	{  	
               		Product product = itr.next();
+              		String methodCall;
+              		if(askToLog){
+              			methodCall = "openToLog()";
+              		}else{
+              			methodCall = "sendMessageToCartServer('"+product.getId()+"','"+product.getName()+"')";
+              		}
+              		
               		String href = "showSingle?id="+product.getId();
               	%>
               
@@ -123,7 +278,7 @@
               <div class="col-sm-6 col-md-3 col-lg-3">
                 <div class="shop-item">
                   <div class="shop-item-image"><img src="assets/images/shop/product-<%=product.getNo() %>.jpg" alt="Accessories Pack"/>
-                    <div class="shop-item-detail"><a class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
+                    <div class="shop-item-detail"><a href="#" onclick="<%=methodCall %> ; return false;"  class="btn btn-round btn-b"><span class="icon-basket">Add To Cart</span></a></div>
                   </div>
                   <h4 class="shop-item-title font-alt"><a href="<%= href%>"><%=product.getName() %></a></h4>Rs.<%=product.getPrice()%>
                 </div>
@@ -176,48 +331,26 @@
             </div>
             <div class="row">
               <div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">
+                
+                
+                <% for(Product product: list) {%>
+                
                 <div class="owl-item">
                   <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-1.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£12.00
+                    <div class="ex-product"><a href="showSingleProduct?<%=product.getId()%>"><img src="assets/images/shop/product-1.jpg" alt="<%=product.getName()%>"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="showSingleProduct?<%=product.getId()%>"><%=product.getName() %></a></h4>Rs.<%=product.getPrice() %>
                     </div>
                   </div>
                 </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-2.jpg" alt="Derby shoes"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Derby shoes</a></h4>£54.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-3.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-4.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£14.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-5.jpg" alt="Chelsea boots"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Chelsea boots</a></h4>£44.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-6.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
-                    </div>
-                  </div>
-                </div>
+                
+                
+                <% } %>
+              
+                
+                
+                
+                
+                
               </div>
             </div>
           </div>

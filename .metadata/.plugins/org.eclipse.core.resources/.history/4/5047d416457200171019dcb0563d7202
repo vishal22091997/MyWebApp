@@ -1,0 +1,38 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.util.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.User;
+
+public class SaveThisSignUp {
+	private String name;
+	private String email;
+	private String pass;
+	
+
+	
+
+	public SaveThisSignUp(String name , String email , String pass ) {
+		// TODO Auto-generated constructor stub
+		this.name =name;
+		this.email = email;
+		this.pass = pass;
+	}
+
+
+
+	public void save() {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		User user = new User(email, new Date().toString(), );
+		
+		 
+	}
+
+}

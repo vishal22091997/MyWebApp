@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class ExractTheNumberFromString {
+	
+	public static void main(String jd[]){
+		Scanner scan = new Scanner(System.in);
+		int t = Integer.parseInt(scan.nextLine());
+		
+		while(t-->0){
+			String s = scan.nextLine();
+			int start=-1,end;
+			long max = 0;
+			for(int i=0,j=s.length();i<j;i++){
+				Character cur = s.charAt(i);
+				 
+				if(cur>='0'&&cur<='9'){
+					if(start==-1){
+						start = i;
+					}
+				}
+				else if(start!=-1||i==j-1){
+					 
+					int curInt = Integer.parseInt(s.substring(start, i));
+					 
+					start = -1;
+					if(curInt>max){
+						max = curInt;
+					}
+				}
+				
+				if(start!=-1&&i==j-1){
+					int curInt = Integer.parseInt(s.substring(start, i+1));
+					 
+					start = -1;
+					if(curInt>max){
+						max = curInt;
+					}
+				}
+			}
+			System.out.println(max);
+		}
+	}
+
+}

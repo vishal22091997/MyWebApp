@@ -331,48 +331,26 @@
             </div>
             <div class="row">
               <div class="owl-carousel text-center" data-items="5" data-pagination="false" data-navigation="false">
+                
+                
+                <% for(Product product: list) {%>
+                
                 <div class="owl-item">
                   <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-1.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£12.00
+                    <div class="ex-product"><a href="showSingleProduct?<%=product.getId()%>"><img src="assets/images/shop/product-1.jpg" alt="<%=product.getName()%>"/></a>
+                      <h4 class="shop-item-title font-alt"><a href="showSingleProduct?<%=product.getId()%>"><%=product.getName() %></a></h4>Rs.<%=product.getPrice() %>
                     </div>
                   </div>
                 </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-2.jpg" alt="Derby shoes"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Derby shoes</a></h4>£54.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-3.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-4.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£14.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-5.jpg" alt="Chelsea boots"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Chelsea boots</a></h4>£44.00
-                    </div>
-                  </div>
-                </div>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="ex-product"><a href="#"><img src="assets/images/shop/product-6.jpg" alt="Leather belt"/></a>
-                      <h4 class="shop-item-title font-alt"><a href="#">Leather belt</a></h4>£19.00
-                    </div>
-                  </div>
-                </div>
+                
+                
+                <% } %>
+              
+                
+                
+                
+                
+                
               </div>
             </div>
           </div>

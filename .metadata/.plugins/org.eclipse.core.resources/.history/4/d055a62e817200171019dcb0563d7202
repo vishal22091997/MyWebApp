@@ -1,0 +1,51 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.User;
+
+public class SaveThisSignUp {
+	private String name;
+	private String email;
+	private String pass;
+	
+
+	
+
+	public SaveThisSignUp(String name , String email , String pass ) {
+		// TODO Auto-generated constructor stub
+		this.name =name;
+		this.email = email;
+		this.pass = pass;
+	}
+
+
+
+	public User save() {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		User user = new User(name, returnDate(), email , pass);
+		System.out.println(pass);
+		session.save(user);
+		session.getTransaction().commit();
+		session.close();
+		factory.close();
+		return user
+		
+		 
+	}
+	public String returnDate(){
+		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		Date date = new Date();
+		return(dateFormat.format(date)); //2016/11/16 12:08:43
+	}
+
+}

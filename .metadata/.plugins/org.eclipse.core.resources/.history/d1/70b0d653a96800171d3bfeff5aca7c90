@@ -1,0 +1,17 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class ReplaceByX {
+	public static void main(String hdj[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			String s = scan.next();
+			String a = scan.next();
+			s = s.replaceAll(a, "X");
+			System.out.println(s);
+		}
+	}
+
+}

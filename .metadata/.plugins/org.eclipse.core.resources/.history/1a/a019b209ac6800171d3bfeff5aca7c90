@@ -1,0 +1,26 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class fibonacci {
+	public static long numberOfDigits( long n)
+	{
+	    if (n == 1)
+	        return 1;
+	 
+	    // using phi = 1.6180339887498948
+	     double d = (n * Math.log10(1.6180339887498948)) -
+	                    ((Math.log10(5)) / 2);
+	 
+	    return Math.ceil(d);
+	}
+	public static void main(String dk[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n = scan.nextInt();
+			System.out.println(fib(n));
+		}
+	}
+
+}

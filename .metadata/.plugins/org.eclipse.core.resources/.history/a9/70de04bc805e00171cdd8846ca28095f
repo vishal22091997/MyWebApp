@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class ExractTheNumberFromString {
+	
+	public static void main(String jd[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			
+		}
+	}
+
+}

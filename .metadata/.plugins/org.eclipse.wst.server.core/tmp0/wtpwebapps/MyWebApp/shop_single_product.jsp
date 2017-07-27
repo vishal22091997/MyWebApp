@@ -42,6 +42,9 @@
     =============================================
     
     -->
+    
+    
+    
     <!-- Default stylesheets-->
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
@@ -60,10 +63,131 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
     
- 	 
+        <link href="assets/css/model.css" rel="stylesheet">
+    <script type="text/javascript">
+
+
     
+	      var xml;
+	      var text;
+			if(window.XMLHttpRequest){
+				xml = new XMLHttpRequest();
+				console.log("check");
+			}else if(window.ActiveXObject){
+				xml = new ActiveXObject("MICROSOFT.XMLHttp");
+			}
+			function sendMessageToCartServer(id, name){
+				text = name;
+				xml.open("POST", "AddToCart?count="+document.getElementById('countOfProduct').value+"&prodid="+id,true);
+				xml.onreadystatechange = receiveMessageFromCartServer;
+				xml.send();
+				
+			}
+			function receiveMessageFromCartServer(){
+				if(xml.readyState==4&&xml.status==200){
+					var modal = document.getElementById('AddedToCart');
+					document.getElementById('item_header').innerHTML = text+", has been added to your cart";
+					modal.style.display = 'block';
+					window.onclick = function(event) {
+					    if (event.target == modal) {
+					        modal.style.display = "none";
+					    }
+					}
+					var span = document.getElementById("spanAddedToCart");
+					span.onclick = function(event){
+						console.log('entered');
+						if(event.target==span){
+							console.log('targated');
+							modal.style.display = 'none';
+						}
+					} 
+					
+				}
+
+			}
+			function doWhatYouWant(){
+				jQuery('#divForCart').load(' #divForCart');
+
+			}
+
+			 
+			// When the user clicks on div, open the popup
+			 
+			 
+			function openLogin(){
+				var modal = document.getElementById('login_form');
+				modal.style.display = "block";
+				 
+				 
+				window.onclick = function(event) {
+				    if (event.target == modal) {
+				        modal.style.display = "none";
+				    }
+				}
+
+
+			}				
+
+			
+
+      </script>
+ 	 
+ 
+ 	 
+ 	 
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  
+  
+  
+  <div id="AddedToCart" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span id=spanAddedToCart class="close">&times;</span>
+      <h2>Item Added To Cart</h2>
+    </div>
+    <div class="modal-body">
+      <h3 id="item_header"></h3>
+      <p id ="item_desc"></p>
+    </div>
+    <div class="modal-footer">
+       <div class="herelog"><a href = "DisplayCart"><button onclick="Login.do; return false;" class="btn btn-border-w btn-circle" type=submit>Check Your Cart</button></a></div>
+    	
+    
+    
+    </div>
+  </div>
+
+</div> 
+
+
+      
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Login Required </h2>
+    </div>
+    <div class="modal-body">
+      <h3>You have to login to add it to your cart</h3>
+      
+    </div>
+    <div class="modal-footer">
+       <div class="herelog"><a href = "#"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Login</button></a></div>
+    	<div class="herereg"><a href="Login.do"><button onclick="openLogin(); return false;" class="btn btn-border-w btn-circle" type=submit>Register</button></a></div>
+    
+    
+    </div>
+  </div>
+
+</div>
+      
+
     <main>
       <div class="page-loader">
         <div class="loader">Loading...</div>
@@ -84,10 +208,15 @@
       	int avg = 0;
       	
       	if(reviews.size()>0){
+      		int size = 0;
       		for(Review review: reviews){
-          		avg+=review.getRating();
+          		if(review.getRegister()==1){
+          			avg+=review.getRating();
+          			size++;
+          		}
           	}
-      		avg = avg/reviews.size();
+      		if(size>=1)
+      			avg = avg/size;
       	}
       	
       	
@@ -96,9 +225,37 @@
       	
       %>
       
+   <div id="login_form" class="modal">
+
+  <!-- Modal content -->
+  <div class = "modal-content" style="width: 352px;height: 377px">
+     
+    
+    
+       <%@include file = "LoginForm.jsp" %>
       
+     
+    
+  </div>
+
+</div> 
       
+      <%User userChecking = (User)session.getAttribute("user");
+     	 boolean askToLog;
+    	if(userChecking!=null){
+    		askToLog = false; 
+    	}else{
+    		askToLog = true;
+    	}
+    	String methodCall;
+  		if(askToLog){
+  			methodCall = "openLogin()";
+  		}else{
+  			methodCall = "sendMessageToCartServer('"+product.getId()+"','"+product.getName()+"')";
+  		}
+  		
       
+      %>
       <div class="main">
         <section class="module">
           <div class="container">
@@ -146,13 +303,21 @@
   				</script>
                    
                   	<form method = "POST" action = "AddToCart" id = "cartform">
-                    	<input class="form-control input-lg" type="number" name="count" value="1" max="40" min="1" required="required"/>
-                  		<input type = "hidden" name = "prodid" value = "<%= product.getId() %>"/>
+                    	<input class="form-control input-lg" type="number" id = "countOfProduct" name="count" value="1" max="40" min="1" required="required"/>
+                  		<input type = "hidden" name = "prodid" value = "<%= product.getId() %>" id="prod_id"/>
                    	</form>
                   </div>
                   	
-                  <div class="col-sm-8"><button onclick="addTo(document.getElementById('cartform'))" class="btn btn-lg btn-block btn-round btn-b" >Add To Cart</button></div>
+                  <div id = "divForCart">	
+                  	
+                  	
+                  <div class="col-sm-8"><button onclick="<%= methodCall %>; return false;" class="btn btn-lg btn-block btn-round btn-b" >Add To Cart</button></div>
                 </div>
+                <!-- Just to check for the popup  -->
+                
+                 </div>
+                
+                 
                 <div class="row mb-20">
                   <div class="col-sm-12">
                     <div class="product_meta">Categories:<a href="#"><%=product.getType() %></a>
@@ -204,10 +369,27 @@
                     <div class="comments reviews">
                     
                     
-                    <%for(Review review: reviews){ %>
+                    <%
+                    String disable = "";
+        			
+        			String nameOfUser = null;
+        			String emailOfUser = null;
+                    if(userChecking!=null){
+                    	disable = "disabled";
+                    	nameOfUser = userChecking.getName();
+                    	emailOfUser = userChecking.getEmail();
+                    } 
+                    
+                    for(Review review: reviews){ 
+                    	String imageUrl = (review.getRegister()==1)?"assets/added/final.png":"assets/added/guest.png";
+                    	 
+                    	 
+                    	 
+                    	 
+                    %>
                     
                       <div class="comment clearfix">
-                        <div class="comment-avatar"><img src="" alt="avatar"/></div>
+                        <div class="comment-avatar"><img src="<%=imageUrl %>" alt="avatar"/></div>
                         <div class="comment-content clearfix">
                           <div class="comment-author font-alt"><a href="#"><%=review.getName() %></a></div>
                           <div class="comment-body">
@@ -228,18 +410,18 @@
                     
                     <div class="comment-form mt-30">
                       <h4 class="comment-form-title font-alt">Add review</h4>
-                      <form method="post" action = "addReview?no=<%= product.getNo() %>">>
+                      <form method="post" action = "addReview?no=<%= product.getNo() %>" id = "reviewForm">
                         <div class="row">
                           <div class="col-sm-4">
                             <div class="form-group">
                               <label class="sr-only" for="name"  >Name</label>
-                              <input class="form-control" id="name" type="text" name="name" placeholder="Name" required/>
+                              <input class="form-control" id="name" type="text" value="<%= (userChecking==null)?"":nameOfUser %>"  <%=disable %>  name="name" placeholder="Name" required/>
                             </div>
                           </div>
                           <div class="col-sm-4">
                             <div class="form-group">
                               <label class="sr-only" for="email" >Email</label>
-                              <input class="form-control" id="email" type="text" name="email" placeholder="E-mail" required/>
+                              <input class="form-control" value="<%= (userChecking==null)?"":emailOfUser %>"  <%=disable %> id="email" type="text" name="email"  placeholder="E-mail" required/>
                             </div>
                           </div>
                           <div class="col-sm-4">
@@ -288,7 +470,10 @@
             </div>
             <div class="row multi-columns-row">
             
-            <% for(RelatedProduct relPro: related){ 
+            <% 
+           	
+            
+            for(RelatedProduct relPro: related){ 
             	String href = "showSingle?id="+relPro.getId();
             	String price2 = (relPro.getAvail()==0)?("OUT OF STOCK"):("Rs "+relPro.getPrice());
             

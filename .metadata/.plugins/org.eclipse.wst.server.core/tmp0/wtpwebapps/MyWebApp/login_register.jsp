@@ -9,6 +9,8 @@
    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+ <meta name="google-signin-client_id" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
   <meta name="google-signin-scope" content="profile email">
@@ -139,7 +141,10 @@
                   <div class="form-group">
                     <input class="form-control" id="password" type="password" name="password" placeholder="Password"/>
                   </div>
-                  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                  <div class="g-signin2" data-onsuccess="onSignIn">
+                  
+                  
+                  </div>
                   <br>
                   <div class="form-group">
                     <button class="btn btn-round btn-b">Login</button>

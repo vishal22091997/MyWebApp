@@ -1,0 +1,36 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class AnagramCheckUp {
+	public static void main(String djd[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			String s = scan.next();
+			int S[] = new int[26];
+			String d = scan.next();
+			int D[] = new int[26];
+			for(int i=0,j=s.length();i<j;i++){
+				S[s.charAt(i)-'a']++;
+			}
+			for(int i=0,j=d.length();i<j;i++){
+				D[d.charAt(i)-'a']++;
+			}
+			boolean yes = true;
+			for(int i=0;i<26;i++){
+				if(S[i]!=D[i]){
+					yes = false;
+					break;
+				}
+			}
+			if(!yes){
+				System.out.println("YES");
+			}else{
+				System.out.println("NO");
+			}
+			
+		}
+	}
+
+}

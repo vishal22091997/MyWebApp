@@ -1,0 +1,10 @@
+package sethi.vishal.MyWebApp.classes;
+
+public class SaveAddress {
+
+	public void save(int id, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

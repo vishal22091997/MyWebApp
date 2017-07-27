@@ -78,7 +78,7 @@
 			}
 			function sendMessageToCartServer(id, name){
 				text = name;
-				xml.open("POST", "AddToCart?count=1&prodid="+id,true);
+				xml.open("POST", "AddToCart?count="+document.getElementById('countOfProduct').value+"&prodid="+id,true);
 				xml.onreadystatechange = receiveMessageFromCartServer;
 				xml.send();
 				
@@ -303,7 +303,7 @@
   				</script>
                    
                   	<form method = "POST" action = "AddToCart" id = "cartform">
-                    	<input class="form-control input-lg" type="number" id = "count" name="count" value="1" max="40" min="1" required="required"/>
+                    	<input class="form-control input-lg" type="number" id = "countOfProduct" name="count" value="1" max="40" min="1" required="required"/>
                   		<input type = "hidden" name = "prodid" value = "<%= product.getId() %>" id="prod_id"/>
                    	</form>
                   </div>

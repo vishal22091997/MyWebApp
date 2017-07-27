@@ -86,6 +86,30 @@
     	<servlet-name>SearchProducts</servlet-name>
     	<url-pattern>/SearchProducts</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>ShowProducts</servlet-name>
+    	<url-pattern>/ShowProducts</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>Profile</servlet-name>
+    	<url-pattern>/Profile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>InsertAddress</servlet-name>
+    	<url-pattern>/InsertAddress</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>RemoveAddress</servlet-name>
+    	<url-pattern>/RemoveAddress</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SignUp</servlet-name>
+    	<url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>CheckUserInDB</servlet-name>
+    	<url-pattern>/CheckUserInDB</url-pattern>
+    </servlet-mapping>
      
     
     
@@ -173,6 +197,48 @@
     	<servlet-name>SearchProducts</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.SearchProducts</servlet-class>
     </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ShowProducts</display-name>
+    	<servlet-name>ShowProducts</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.ShowProducts</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Profile</display-name>
+    	<servlet-name>Profile</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.Profile</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>InsertAddress</display-name>
+    	<servlet-name>InsertAddress</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.InsertAddress</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>RemoveAddress</display-name>
+    	<servlet-name>RemoveAddress</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.RemoveAddress</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SignUp</display-name>
+    	<servlet-name>SignUp</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SignUp</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>CheckUserInDB</display-name>
+    	<servlet-name>CheckUserInDB</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.CheckUserInDB</servlet-class>
+    </servlet>
     
     
     
@@ -183,7 +249,7 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>Index</welcome-file>
         </welcome-file-list>
         
     </web-app> 

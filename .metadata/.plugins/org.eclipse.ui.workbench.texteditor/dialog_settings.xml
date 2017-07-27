@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Navigat" key="selection"/>
+		<item value="hr" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="hr"/>
+			<item value="User"/>
+			<item value="openLogin"/>
+			<item value="dropMeDown"/>
+			<item value="dropdown"/>
 			<item value="navigat"/>
 			<item value="search"/>
 			<item value="user"/>
-			<item value="openM"/>
-			<item value="openmod"/>
-			<item value="close"/>
-			<item value="btn"/>
-			<item value="horizontalTab"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -28,7 +28,7 @@
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="925" key="DIALOG_X_ORIGIN"/>
-		<item value="86" key="DIALOG_Y_ORIGIN"/>
+		<item value="176" key="DIALOG_X_ORIGIN"/>
+		<item value="355" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

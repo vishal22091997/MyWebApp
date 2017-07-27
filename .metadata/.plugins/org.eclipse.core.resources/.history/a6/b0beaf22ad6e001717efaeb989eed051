@@ -1,0 +1,12 @@
+package Programs;
+
+import java.util.*;
+
+public class CountDistinctInWindow {
+	public static void main(String jdj[]){
+		Scanner scan = new Scanner(System.in);
+		
+		
+	}
+
+}

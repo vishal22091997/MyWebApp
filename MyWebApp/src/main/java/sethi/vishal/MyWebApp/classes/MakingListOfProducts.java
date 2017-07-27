@@ -13,6 +13,21 @@ public class MakingListOfProducts {
 		System.out.println("made Object"); 
 		this.text = text;
 	}
+	public String makeBestString(String text){
+		String ans ;
+		 
+		String arr[] = text.trim().split(" ");
+		System.out.println(arr.length);
+		 
+		ans = "from Product where ";
+		for(int i=0;i<arr.length;i++){
+			ans+= "UPPER(name) like UPPER('%"+arr[i]+"%')";
+			if(i!=arr.length-1){
+				ans+=" AND ";
+			}
+		}
+		return ans;
+	}
 	public List<Product> findList(){
 		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Product.class).buildSessionFactory();
 		System.out.println("factory Made");
@@ -20,7 +35,8 @@ public class MakingListOfProducts {
 		System.out.println("Transaction Made");
 		session.beginTransaction();
 		System.out.println(text);
-		List<Product> products = session.createQuery("from Product where UPPER(name) like UPPER('%"+text+"%')").list();
+		String searchQuery = makeBestString(text);
+		List<Product> products = session.createQuery(searchQuery).list();
 		session.getTransaction().commit();
 		session.close();
 		factory.close();

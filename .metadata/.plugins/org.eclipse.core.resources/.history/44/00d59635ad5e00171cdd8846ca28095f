@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class RegExMatchine {
+	public static void main(String jd[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			String s = scan.next();
+			String match = scan.next();
+			int len = s.length();
+			if(s.charAt(0)=='^'){
+				if(s.)
+			}
+		}
+	}
+
+}

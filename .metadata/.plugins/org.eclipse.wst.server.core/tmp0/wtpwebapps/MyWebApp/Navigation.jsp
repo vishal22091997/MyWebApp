@@ -58,35 +58,134 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    
+    
+    
+    
+    <style rel="stylesheet">
+    	
+    	#searchInput{
+    		
+		    float:right; 
+		      
+		     
+    	}
+    	.Mydropbtn {
+		    background-color: white;
+		    color: white;
+		    padding: 8px;
+		    font-size: 16px;
+		    border-radius: 10px;
+		    cursor: pointer;
+		    margin-bottom: 5px;
+		}
+
+.Mydropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.Mydropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top:62px;
+    margin-left:5px;
+     
+}
+
+.Mydropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+     
+    
+}
+
+.Mydropdown-content a:hover {background-color: #f1f1f1}
+
+.Mydropdown:hover .Mydropdown-content {
+	margin-left:5px;
+     
+    display: block;
+}
+
+.Mydropdown:hover .Mydropbtn {
+    background-color: white;
+}
+    
+    
+    </style>
+    
+    
+    <script type="text/javascript">
+
+	 
+	 
+
+	function openDropDown(){
+		var drop = document.getElementById('dropMeDown');
+		var content = document.getElementById('searchBox');
+		content.style.display = 'block';
+		 
+		 
+	}
+	function closeDropDown(){
+		var drop =  document.getElementById('dropMeDown');
+		var content = document.getElementById('searchBox');
+		 
+		content.style.display = 'none';
+	}
+
+    </script>
+    
+    
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
-      
-      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+       
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" id="navBar">
         <div class="container">
           <div class="navbar-header">
             <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="Index">MobiWorld</a>
+          	 <div  class="Mydropdown" onfocus="openDropDown()" onblur="closeDropDown()" id = "dropMeDown">
+          	 <input class="Mydropbtn" id="searchBox"  onfocus="openDropDown()" value="charger"   oninput="fetchResults();openDropDown();" style="float:right;margin-top: 5%;color:black" class="navbar-header" type="text" placeholder="Press Enter to search">
+          	 <div id="searchDropDown" class="Mydropdown-content">
+          	 	  
+          	 	
+				 
+			  </div>
+          	 </div>
+          	 
           </div>
+          <div>
+          	
+          </div>
+          
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Chargers</a>
- 					<!-- Here Number of Dropdowns are removed -->
+              <li  class="dropdown"><a class="dropdown-toggle" href="ShowProducts?type=1&sort=default&page=1"     data-toggle="dropdown">Chargers</a>
+ 					<!-- Here Number of Dropdowns are removed -->							
               </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Earphones</a>
+              <li class="dropdown"><a target="_blank" class="dropdown-toggle" href="ShowProducts?type=2&sort=default&page=1" data-toggle="dropdown">Earphones</a>
                  
               </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Datacable</a>
+              <li class="dropdown"><a class="dropdown-toggle" href="ShowProducts?type=3&sort=default&page=1" data-toggle="dropdown">Datacable</a>
                  
               </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">ScreenGaurd</a>
+              <li class="dropdown"><a class="dropdown-toggle" href="ShowProducts?type=4&sort=default&page=1" data-toggle="dropdown">ScreenGaurd</a>
                  
               </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Contact Us</a>
+              <li class="dropdown"> <a class="dropdown-toggle" href="Contact" data-toggle="dropdown">Contact Us</a> 
                  
               </li>
               
                
-              <!--li.dropdown.navbar-cart-->
+              <!--li.dropdoswn.navbar-cart-->
               <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
               <!--        span.icon-basket-->
               <!--        |-->
@@ -139,35 +238,42 @@
               	String log;
               	if(session.getAttribute("user")!=null){
               		User user = (User)session.getAttribute("user");
-              		titles.add(0, "Your Orders");
-              		titles.add(1, "Your Account");
-              		titles.add(2, "Your Addresses");
-              		titles.add(3, "Your Cart");
-              		titles.add(4, "Signout");
-              		hrefs.add(0,"#");
-              		hrefs.add(1, "#");
-              		hrefs.add(2,"#");
-              		hrefs.add(3,"#");
-              		hrefs.add(4,"Signout");
+              		titles.add(0, "   View Profile");
+              		titles.add(1, "   Orders");
+              		titles.add(2, "   Cart");
+              		titles.add(3, "   SignOut");
+              		
+              		hrefs.add(0,"Profile");
+              		hrefs.add(1, "Orders");
+              		hrefs.add(2,"DisplayCart");
+              		hrefs.add(3,"Signout");
+              		
               		log = "Hello, "+user.getEmail();
 					
               	}else{
               		titles.add(0, "SignIn");
               		titles.add(1, "Register");
-              		hrefs.add(0, "Login.do");
-              		hrefs.add(1, "Login.do");
+              		hrefs.add(0, "#");
+              		hrefs.add(1, "#");
+              		
               		log = "Hello, "+"Sign in";
               	}
               
               	int len = titles.size();
               %>
               
-              <li class="dropdown"><a class="dropdown-toggle" href="Login.do" data-toggle="dropdown"><%=log %></a>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><%=log %></a>
                    <ul class="dropdown-menu">
+                   
+                   
+                   
                   <% for(int i=0;i<len;i++){ %>
-                  
-                  <li><a href="<%= hrefs.get(i)%>"><%=titles.get(i) %></a></li>
-                  
+                  <% if(len==2) { %>
+                  		<li><a href="<%= hrefs.get(i)%>" onclick="openLogin();return false;"><%=titles.get(i) %></a></li>
+                  <%}  %>
+			        <%if(len==4) {%>
+		            <li><a href="<%= hrefs.get(i)%>"><%=titles.get(i) %></a></li>
+	                <% } %>
                   <%} %>
                   </ul>
                   
@@ -175,4 +281,6 @@
             </ul>
           </div>
         </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/basic.js"></script>
       </nav>

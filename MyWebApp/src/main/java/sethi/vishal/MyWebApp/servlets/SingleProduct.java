@@ -44,7 +44,8 @@ public class SingleProduct extends HttpServlet {
 		 List<RelatedProduct> related = get.relatedProducts(pro.getType());
 		 session.setAttribute("related", related);
 		 
-		 System.out.println(related);
+		  
+		 System.out.println("reachedInShopSingle");
 		 RequestDispatcher dispatcher = request.getRequestDispatcher("shop_single_product.jsp");
 		 dispatcher.forward(request, response);
 		  

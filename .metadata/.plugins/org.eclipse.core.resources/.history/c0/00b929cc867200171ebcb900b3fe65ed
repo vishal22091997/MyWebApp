@@ -1,0 +1,40 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class CamelCase {
+	public static String makeIt(String s){
+		String ans = "";
+		for(int i=0,j=s.length();i<j;i++){
+			if(Character.isUpperCase(s.charAt(i))){
+				ans+=s.charAt(i);
+			}
+		}
+		return ans;
+	}
+	public static void main(String hg[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n = scan.nextInt();
+			String s[] = new String[n];
+			for(int i=0;i<n;i++){
+				s[i] = makeIt(scan.next());
+			}
+			String check = scan.next();
+			int ans = 0;
+			for(int i=0;i<n;i++){
+				if(s[i].indexOf(check)==0){
+					ans++;
+				}
+			}
+			if(ans>0){
+				System.out.println(ans);
+			}else{
+				System.out.println("No match found");
+			}
+			
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package sethi.vishal.MyWebApp.classes;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.User;
+
+public class checkIfUserExists {
+
+	public boolean check(String email) {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+		
+		return false;
+	}
+
+}

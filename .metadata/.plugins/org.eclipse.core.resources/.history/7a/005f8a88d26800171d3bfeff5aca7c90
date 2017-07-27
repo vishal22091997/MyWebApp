@@ -1,0 +1,21 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class GameOfXor {
+	public static void main(String d[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n = scan.nextInt();
+			int ans = 0,sum = n;
+			for(int i=0;i<n;i++){
+				int x = scan.nextInt();
+				ans = ans^((sum%2)*x);
+				sum+=n-i-1;
+			}
+			System.out.println(ans);
+		}
+	}
+
+}

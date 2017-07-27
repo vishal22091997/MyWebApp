@@ -1,0 +1,23 @@
+import java.util.*;
+import java.util.Set;
+
+public class FirstRepeatingElement {
+	public static void main(String s[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n = scan.nextInt();
+			Set<Integer> set = new HashSet<Integer>();
+			int index = -1;
+			while(n-->0){
+				int x = scan.nextInt();
+				if(set.contains(x)){
+					index = -1;
+				}else{
+					set.add(x);
+				}
+			}
+		}
+	}
+
+}

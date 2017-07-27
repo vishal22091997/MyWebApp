@@ -1,0 +1,54 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class MaxinmumGCD {
+	public static void main(String jd[]){
+		Scanner scan = new Scanner(System.in);
+		int n = scan.nextInt();
+		int a[] = new int[n];
+		int b[] = new int[n];
+		int max = 0;
+		for(int i=0;i<n;i++){
+			a[i] = scan.nextInt();
+			 
+		}
+		for(int i=0;i<n;i++){
+			b[i] = scan.nextInt();
+			 
+		}
+		int len = 1000001;
+		int ar1[] = new int[len];
+		int ar2[] = new int[len];
+		for(int i=0;i<n;i++){
+			ar1[a[i]]++;
+			ar2[b[i]]++;
+		}
+		int count1[] = new int[len];
+		int count2[] = new int[len];
+		for(int i=1;i<len;i++){
+			for(int j=i;j<len;j+=i){
+				if(ar1[j]>0){
+					if(count1[i]<j){
+						count1[i] = j;
+					}
+				}
+				if(ar2[j]>0){
+					if(count2[i]<j){
+						count2[i] = j;
+					}
+				}
+			}
+		}
+		for(int i=len-1;i>=1;i--){
+			if(count1[i]!=0&&count2[i]!=0){
+				System.out.println(count1[i]+count2[i]);
+				break;
+			}
+		}
+		
+		
+		
+	}
+
+}

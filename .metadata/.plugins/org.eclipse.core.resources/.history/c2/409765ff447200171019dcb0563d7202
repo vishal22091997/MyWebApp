@@ -1,0 +1,23 @@
+package sethi.vishal.MyWebApp.classes;
+
+public class SaveThisSignUp {
+	private String name;
+	private String email;
+	private String pass;
+	
+
+	
+
+	public SaveThisSignUp(String name2, String email2, String pass2) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public void save() {
+		// TODO Auto-generated method stub
+		
+		 
+	}
+
+}
