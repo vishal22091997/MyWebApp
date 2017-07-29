@@ -153,7 +153,35 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 				} 
 				xml2.send();
 			} 
-			 
+			function LogMeIn(){
+				var xml3 ;
+				if(window.XMLHttpRequest){
+					xml3 = new XMLHttpRequest();
+	 			}else if(window.ActiveXObject){
+	 	 			xml3 = new ActiveXObject("MICROSOFT.XMLHttp");
+	 	 		}
+				var email = document.getElementById('email_log').value;
+				var pass = document.getElementById('pass_log').value;
+				xml3.open("GET",'LogThisUser?email='+email+"&pass="+pass,true);
+				xml3.onload = function(){
+					
+					var queryy = JSON.parse(xml3.responseText);
+					console.log(queryy[0]);
+					if(queryy[0]==false ||queryy[0]=='false'){
+						document.getElementById('span_log').innerHTML = "Email/password wrong";
+						
+					}else{
+						changeState();	
+					}			
+
+
+			} 
+			xml3.send();	
+
+
+
+
+			} 
 	       </script>	
         	 	
         
@@ -178,12 +206,13 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 <div class="section-out">
 <section class="login-section">
 <div class="login">
-<form action="">
+<form>
+<span style="color: orange;font-style: italic;font-size: 15px" id = "span_log"> </span>
 <ul class="ul-list">
-<li><input type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
-<li><input type="password" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
+<li><input type="email" id = "email_log" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
+<li><input type="password" id = "pass_log" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
 <li><span class="remember"><input type="checkbox" id="check"> <label for="check">Remember Me</label></span><span class="remember"><a href="">Forget Password</a></span></li>
-<li><input type="submit" value="SIGN IN" class="btn23"></li>
+<li><input type="button" onclick="LogMeIn()" value="SIGN IN" class="btn23"></li>
 </ul>
 </form>
 </div>

@@ -1,7 +1,12 @@
 package Programs;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 public class CamelCase {
 	public static String makeIt(String s){
@@ -18,30 +23,30 @@ public class CamelCase {
 		int t = scan.nextInt();
 		while(t-->0){
 			int n = scan.nextInt();
-			String s[] = new String[n];
-			String b[] = new String[n];
-			String c[] = new String[n];
+			List<HashSet<Integer>> list = new ArrayList<HashSet<Integer>>();
 			for(int i=0;i<n;i++){
-				b[i] = scan.next();
-				s[i] = makeIt(b[i]);
+				HashSet<Integer> set = new HashSet<Integer>();
+				for(int j=0;j<n;j++){
+					set.add(scan.nextInt());
+				}
+				list.add(i, set);
 			}
-			Arrays.sort(b);
-			Arrays.sort(s);
-			String check = scan.next();
-			 
-			int x = 0;
-			for(int i=0;i<n;i++){
-				if(s[i].indexOf(check)!=-1){
-					System.out.println(s[i]+" "+b[i]+" ");
-					x++;
+			Iterator<Integer> it = list.get(0).iterator();
+			int count = 0;
+			while(it.hasNext()){
+				int check = it.next();
+				for(int i=1,j=list.size();i<j;i++){
+					if(!list.get(i).contains(check)){
+						break;
+					}
+					if(i==j-1){
+						count++;
+					}
 				}
 			}
-			 
-			if(x==0){
-				System.out.println("No match found");
-			}
-			
+			System.out.println(count);
 		}
+		
 	}
 
 }

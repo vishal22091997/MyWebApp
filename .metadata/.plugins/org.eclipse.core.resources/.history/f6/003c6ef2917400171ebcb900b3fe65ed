@@ -1,0 +1,15 @@
+package sethi.vishal.MyWebApp.classes;
+
+public class checkLogIfUser {
+
+	public boolean check(String email) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean check(String email) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

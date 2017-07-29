@@ -1,0 +1,32 @@
+package Programs;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class CamelCase {
+	public static String makeIt(String s){
+		String ans = "";
+		for(int i=0,j=s.length();i<j;i++){
+			if(Character.isUpperCase(s.charAt(i))){
+				ans+=s.charAt(i);
+			}
+		}
+		return ans;
+	}
+	public static void main(String hg[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n = scan.nextInt();
+			int a[][] = new int[n][n];
+			for(int i=0;i<n;i++){
+				for(int j=0;j<n;j++){
+					a[i][j] = scan.nextInt();
+				}
+			}
+			
+		}
+		
+	}
+
+}

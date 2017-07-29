@@ -110,6 +110,10 @@
     	<servlet-name>CheckUserInDB</servlet-name>
     	<url-pattern>/CheckUserInDB</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>LogThisUser</servlet-name>
+    	<url-pattern>/LogThisUser</url-pattern>
+    </servlet-mapping>
      
     
     
@@ -238,6 +242,13 @@
     	<display-name>CheckUserInDB</display-name>
     	<servlet-name>CheckUserInDB</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.CheckUserInDB</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>LogThisUser</display-name>
+    	<servlet-name>LogThisUser</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.LogThisUser</servlet-class>
     </servlet>
     
     

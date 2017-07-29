@@ -1,0 +1,17 @@
+package Programs;
+
+import java.util.Scanner;
+
+public class InFirstButSecond {
+	public static void main(String jdd[]){
+		Scanner scan = new Scanner(System.in);
+		int t = scan.nextInt();
+		while(t-->0){
+			int n1 = scan.nextInt(), n2 = scan.nextInt();
+			int a[] = new int[n1];
+			
+			for(in)
+		}
+	}
+
+}

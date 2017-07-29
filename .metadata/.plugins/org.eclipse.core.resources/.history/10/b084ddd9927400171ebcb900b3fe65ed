@@ -1,0 +1,27 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.User;
+
+public class checkLogIfUser {
+
+	 
+	public boolean check(String email, String pass) {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(User.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		List<User> list = session.createQuery("from User where name='"+email+"' and password='"+pass+"'").list();
+		if(list.size()>0&&list.get(0).getEmail().equals(email)&&list.get(0).getPassword().equals(pass)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+}
