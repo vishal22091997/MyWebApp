@@ -2,17 +2,22 @@ package sethi.vishal.MyWebApp.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id ;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "SELLER")
 public class Seller {
 	@Id
-	@Column(name = "ID")
+	@Column(name = "ID" ) 
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SELLER_SEQ")
+	@SequenceGenerator(name = "SELLER_SEQ", sequenceName = "SELLER_SEQ", allocationSize = 1, initialValue = 1)
 	private int id;
 	
-	@Column(name = "NAME")
+	@Column(name = "NAME") 
 	private String name;
 	
 	@Column(name = "ADDRESS")
@@ -32,19 +37,29 @@ public class Seller {
 	
 	@Column(name = "PINCODE")
 	private int pincode;
-
-	public Seller(int id, String name, String address, long contact, int rating, String email, String joinDate,
-			int pincode) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.address = address;
-		this.contact = contact;
-		this.rating = rating;
-		this.email = email;
-		this.joinDate = joinDate;
-		this.pincode = pincode;
+	
+	@Column(name="USER_ID")
+	private int userId;
+	
+	@Column(name = "VERIFIED")
+	private int verified;
+	public int getUserId() {
+		return userId;
 	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+	public int getVerified() {
+		return verified;
+	}
+
+	public void setVerified(int verified) {
+		this.verified = verified;
+	}
+
+	 
 
 	public int getPincode() {
 		return pincode;
@@ -78,6 +93,20 @@ public class Seller {
 		this.address = address;
 	}
 
+	public Seller(String name, String address, long contact, int rating, String email, String joinDate, int pincode,
+			int userId, int verified) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+		this.rating = rating;
+		this.email = email;
+		this.joinDate = joinDate;
+		this.pincode = pincode;
+		this.userId = userId;
+		this.verified = verified;
+	}
+
 	public long getContact() {
 		return contact;
 	}
@@ -108,6 +137,19 @@ public class Seller {
 
 	public void setJoinDate(String joinDate) {
 		this.joinDate = joinDate;
+	}
+	
+	
+
+	public Seller(String name, String address, long contact, String email, String joinDate, int pincode, int userId) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+		this.email = email;
+		this.joinDate = joinDate;
+		this.pincode = pincode;
+		this.userId = userId;
 	}
 
 	@Override

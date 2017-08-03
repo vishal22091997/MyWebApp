@@ -1,0 +1,30 @@
+package sethi.vishal.MyWebApp.classes;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.Seller;
+
+public class CheckIfSeller {
+
+	public boolean exists(int id) {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Seller.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		List<Seller> list = session.createQuery("from Seller where userId = "+ id).list();
+		session.getTransaction().commit();
+		session.close();
+		factory.close();
+		if(list.size()>0){
+			return true;
+		}else{
+			return false;
+		}
+		
+	}
+
+}

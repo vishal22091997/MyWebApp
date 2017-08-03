@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import sethi.vishal.MyWebApp.classes.CheckIfSeller;
 import sethi.vishal.MyWebApp.classes.GetProfileData;
 import sethi.vishal.MyWebApp.entity.Address;
 import sethi.vishal.MyWebApp.entity.User;
@@ -35,11 +36,12 @@ public class Profile extends HttpServlet {
 		// TODO Auto-generated method stub
 		HttpSession session = request.getSession();
 		User user = (User)session.getAttribute("user");
-		 
+		CheckIfSeller check = new CheckIfSeller();
+		boolean[] present =  check.exists(user.getId());
 			GetProfileData getData = new GetProfileData();
 			List<Address> list = getData.getListOfAddresses(user.getId());
 			session.setAttribute("address", list);
-		 
+			session.setAttribute("selinfo", present);
 		RequestDispatcher dispacher = request.getRequestDispatcher("profilepage.jsp");
 		dispacher.forward(request, response);
 	}

@@ -1,0 +1,10 @@
+package sethi.vishal.MyWebApp.classes;
+
+public class CheckIfSeller {
+
+	public boolean exists(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

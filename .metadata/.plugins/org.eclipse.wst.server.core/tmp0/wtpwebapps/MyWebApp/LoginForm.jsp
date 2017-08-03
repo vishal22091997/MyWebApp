@@ -110,17 +110,78 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 					
 			} 
 			function changeState(){
-				if(xml.readyState==4&&xml.status==200){
+				 
 					document.getElementById('login_form').style.display = 'none';
 					jQuery('#navBar').load(' #navBar');	
 					jQuery('#sampleProducts').load(' #sampleProducts');
-					doWhatYouWant();
-				}
+					 
+				 
 
 			}
 			 
-			 
-			 
+			function checkUser(){
+				var xml2;
+	 			if(window.XMLHttpRequest){
+					xml2 = new XMLHttpRequest();
+	 			}else if(window.ActiveXObject){
+	 	 			xml2 = new ActiveXObject("MICROSOFT.XMLHttp");
+
+	 	 		}
+				console.log("reachecd to check user");
+				var form = document.getElementById('register-form');
+				var email = document.getElementById('email-register').value;
+				xml2.open("GET",'CheckUserInDB?email='+email,true);
+				xml2.onload = function(){
+					
+						var queryy = JSON.parse(xml2.responseText);
+						console.log(queryy[0]);
+						if(queryy[0]==true ||queryy[0]=='true'){
+							document.getElementById('span-register').innerHTML = "User Already Exists";
+							
+						}else{
+							document.getElementById('span-register').innerHTML = "";
+							xml3 = new XMLHttpRequest();
+							xml3.open("POST", 'SignUp?id='+document.getElementById('email-register').value+'&name='+document.getElementById('name-register').value+'&pass='+document.getElementById('password-register').value);
+							xml3.onreadystatechange = changeState;
+							xml3.send();
+
+							
+							 					
+						}			
+
+
+				} 
+				xml2.send();
+			} 
+			function LogMeIn(){
+				var xml3 ;
+				if(window.XMLHttpRequest){
+					xml3 = new XMLHttpRequest();
+	 			}else if(window.ActiveXObject){
+	 	 			xml3 = new ActiveXObject("MICROSOFT.XMLHttp");
+	 	 		}
+				var email = document.getElementById('email_log').value;
+				var pass = document.getElementById('pass_log').value;
+				xml3.open("GET",'LogThisUser?email='+email+"&pass="+pass,true);
+				xml3.onload = function(){
+					
+					var queryy = JSON.parse(xml3.responseText);
+					console.log(queryy[0]);
+					if(queryy[0]==false ||queryy[0]=='false'){
+						document.getElementById('span_log').innerHTML = "Email/password wrong";
+						
+					}else{
+						changeState();	
+					}			
+
+
+			} 
+			xml3.send();	
+
+
+
+
+			} 
 	       </script>	
         	 	
         
@@ -145,12 +206,13 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 <div class="section-out">
 <section class="login-section">
 <div class="login">
-<form action="">
+<form>
+<span style="color: orange;font-style: italic;font-size: 15px" id = "span_log"> </span>
 <ul class="ul-list">
-<li><input type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
-<li><input type="password" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
+<li><input type="email" id = "email_log" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
+<li><input type="password" id = "pass_log" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
 <li><span class="remember"><input type="checkbox" id="check"> <label for="check">Remember Me</label></span><span class="remember"><a href="">Forget Password</a></span></li>
-<li><input type="submit" value="SIGN IN" class="btn23"></li>
+<li><input type="button" onclick="LogMeIn()" value="SIGN IN" class="btn23"></li>
 </ul>
 </form>
 </div>
@@ -167,12 +229,15 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 
 <section class="signup-section">
 <div class="login">
-<form action="">
+<form action="SignUp" method="post" id = "register-form">
+<span style="color: orange;font-style: italic;font-size: 15px" id = "span-register"> </span>
 <ul class="ul-list">
-<li><input type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
-<li><input type="password" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
+
+<li><input type="name" id="name-register" required class="input" placeholder="Your Full Name"/><span class="icon"><i class="fa fa-user"></i></span></li>
+<li><input id = "email-register" type="email" required class="input" placeholder="Your Email"/><span class="icon"><i class="fa fa-user"></i></span></li>
+<li><input type="password" id = "password-register" required class="input" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span></li>
 <li><input type="checkbox" id="check1"> <label for="check1">I accept terms and conditions</label></li>
-<li><input type="submit" value="SIGN UP" class="btn23"></li>
+<li><input type="button" value="SIGN UP" class="btn23" onclick="checkUser();return false;"></li>
 </ul>
 </form>
 </div>

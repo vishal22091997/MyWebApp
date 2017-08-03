@@ -88,8 +88,30 @@
                     	<font size="4">Name: </font><font size="5"><%= userForProfile.getEmail() %> </font><br><br>
                     	<font size="4">Email: </font><font size="5"> <%=userForProfile.getName() %> </font><br><br>
                     	<font size="4">Gender: </font><font size="5"> Male </font><br><br>
-                    	
+                    <hr>
                     
+                    <%
+                    	boolean[] selinfo = (boolean[])session.getAttribute("selinfo");
+                    	String text = "", hrefText="",href="" ;
+                    	if(selinfo[0]==true&&selinfo[1]==true){
+                    		text = "for Seller Panel Please";
+                    		href = "SellerPanel";
+                    		hrefText = "Click Here";
+                    	}else if(selinfo[0]&&!selinfo[1]){
+                    		text = "Wait For Application Acceptance";
+                    		href = "";
+                    		hrefText = "";
+                    	}else if(!selinfo[0]){
+                    		text = "to become seller, ";
+                    		hrefText = "Register Here";
+                    		href = "SellerWant";
+                    				
+                    	}
+                    
+                    %>
+                    
+                    	
+                    <h3 style="color: red;"><%= text %> <a href = "<%= href%>"> <%=hrefText %></a></h3>
                     </div>
                     <div class="tab-pane" id="address"> 
                     		

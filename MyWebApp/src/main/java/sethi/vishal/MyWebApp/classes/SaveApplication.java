@@ -1,0 +1,28 @@
+package sethi.vishal.MyWebApp.classes;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.Seller;
+
+public class SaveApplication {
+	private Seller seller;
+	public SaveApplication(Seller application) {
+		// TODO Auto-generated constructor stub
+		this.seller = application;
+	}
+
+	public void insertApplication() {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Seller.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		session.beginTransaction();
+		session.save(seller);
+		session.getTransaction().commit();
+		session.close();
+		factory.close();
+		
+	}
+
+}

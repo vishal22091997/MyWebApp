@@ -1,0 +1,18 @@
+package sethi.vishal.MyWebApp.classes;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import sethi.vishal.MyWebApp.entity.Seller;
+
+public class CheckIfSeller {
+
+	public boolean exists(int id) {
+		// TODO Auto-generated method stub
+		SessionFactory factory = new Configuration().configure().addAnnotatedClass(Seller.class).buildSessionFactory();
+		Session session = factory.getCurrentSession();
+		
+		
+	}
+
+}

@@ -114,6 +114,14 @@
     	<servlet-name>LogThisUser</servlet-name>
     	<url-pattern>/LogThisUser</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SellerWant</servlet-name>
+    	<url-pattern>/SellerWant</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SellerApplication</servlet-name>
+    	<url-pattern>/SellerApplication</url-pattern>
+    </servlet-mapping>
      
     
     
@@ -249,6 +257,20 @@
     	<display-name>LogThisUser</display-name>
     	<servlet-name>LogThisUser</servlet-name>
     	<servlet-class>sethi.vishal.MyWebApp.servlets.LogThisUser</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SellerWant</display-name>
+    	<servlet-name>SellerWant</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SellerWant</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SellerApplication</display-name>
+    	<servlet-name>SellerApplication</servlet-name>
+    	<servlet-class>sethi.vishal.MyWebApp.servlets.SellerApplication</servlet-class>
     </servlet>
     
     
